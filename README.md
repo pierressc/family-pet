@@ -6,44 +6,51 @@ Plataforma web comunitária voltada para ajudar **famílias com crianças, tutor
 
 ---
 
-## Documento Final e Pacote de Entregáveis
+## Estrutura Separada para as Duas Apresentações
 
-- **Documento Mestre Único (9 Seções):** [DOCUMENTO_FINAL_FAMILY_PLACE.md](docs/DOCUMENTO_FINAL_FAMILY_PLACE.md)
-
-### Artefatos Visuais e Planilhas de Apoio
-| Etapa | Artefatos |
-| :--- | :--- |
-| **TAP e Escopo** | [PMCanvas (Markdown)](docs/artefatos/pmcanvas-family-place.md) · [PMCanvas (Visual SVG)](docs/artefatos/pmcanvas-family-place.svg) |
-| **Elicitação** | [Questionário, Roteiro de Entrevista e Registros LGPD](docs/artefatos/elicitacao-questionario-roteiro.md) |
-| **Protótipo (Baixa Fidelidade)** | [Wireframes das Telas Essenciais (SVG)](docs/artefatos/wireframes-baixa-fidelidade.svg) |
-| **Requisitos** | [Planilha Versionada de Requisitos (CSV)](docs/artefatos/requisitos-family-place.csv) |
-| **EAP e Cronograma** | [EAP (draw.io)](docs/artefatos/eap-family-place.drawio) · [EAP (SVG)](docs/artefatos/eap-family-place.svg) · [Cronograma Sommerville +50% (CSV)](docs/artefatos/cronograma-family-place.csv) · [Gantt (SVG)](docs/artefatos/gantt-family-place.svg) |
-| **Backlog e Estimativas** | [Backlog, Histórias e Pontos (CSV)](docs/artefatos/backlog-kanban-planning-poker.csv) · [Quadro Kanban (SVG)](docs/artefatos/kanban-family-place.svg) |
-| **Coerência e Rastreabilidade** | [Matriz de Rastreabilidade (CSV)](docs/artefatos/matriz-rastreabilidade.csv) |
-| **Contribuição Rastreável e Apresentação** | [Atas de Reunião e Planning Poker](docs/artefatos/atas-reuniao.md) · [Roteiro da Apresentação de 12 min (24/11)](docs/artefatos/roteiro-apresentacao-12min.md) |
+| Pasta | Finalidade | Stack e Escopo |
+| :--- | :--- | :--- |
+| [docs/](docs/DOCUMENTO_FINAL_FAMILY_PLACE.md) | **Apresentação 1 (24/11) — Eng. de Software** | Documento Mestre Único (9 seções) e Pacote Completo de Artefatos Visuais/CSV |
+| [mvp/](mvp/) | **Apresentação 1 (24/11) — MVP Opcional** | React + Vite isolado (`localStorage`), cobrindo exclusivamente as **9 histórias `Must` (`RF001–RF009`)** |
+| [projeto-completo/](projeto-completo/) | **Apresentação 2 (Dezembro) — Projeto Completo** | **React + API Node.js + Banco de Dados SQLite**, cobrindo `RF001–RF014` (*Must + Should + Could*), Timeline, Cupons e Assistente IA |
 
 ---
 
-## Como Executar o MVP em React
-
-O MVP funcional cobre 100% das **9 histórias Essenciais (`Must`: `RF001` a `RF009`)**, incluindo busca com filtros combinados em 15 estabelecimentos, avaliação multicritério nos 4 pilares, listas de favoritos por critério, contas Cliente/Estabelecimento, painel de gestão e contato direto via WhatsApp/Site sem intermediação financeira.
+## 1. Como Executar o MVP (Pasta `mvp/` — Apresentação 24/11)
 
 ```powershell
+cd mvp
 npm install
 npm run dev
 ```
 
-Para gerar o bundle de produção:
-
-```powershell
-npm run build
-```
-
-Na janela **Entrar / Cadastrar**, utilize os botões **Entrar como Cliente Demo** ou **Entrar como Estabelecimento Demo** para testar imediatamente todos os fluxos durante a apresentação.
+Acesse `http://localhost:5173`. Para testar rapidamente, clique em **Entrar / Cadastrar** e use **Entrar como Cliente Demo** ou **Entrar como Estabelecimento Demo**.
 
 ---
 
-## Status do Projeto
-- [x] Pacote completo de documentação e artefatos de Engenharia de Software estruturado na branch `main`
-- [x] Desenvolvimento do **MVP em React** (histórias `Must` `RF001–RF009`, 31 pontos)
-- [ ] Coleta final de campo e preenchimento dos nomes dos demais integrantes (`[Integrante 2–5]`)
+## 2. Como Executar o Projeto Completo (Pasta `projeto-completo/` — React + SQLite)
+
+Requisitos: **Node.js 22+ ou 24+** (utiliza o módulo nativo `node:sqlite`, sem necessidade de compilar drivers nativos).
+
+```powershell
+cd projeto-completo
+npm --prefix web install
+npm run dev
+```
+
+- **Front-end React:** `http://localhost:5174`
+- **API REST + Banco SQLite (`server/family-place.db`):** `http://localhost:3001`
+- **Testes automatizados da API SQLite:** `npm --prefix projeto-completo run test:api`
+- **Build de produção:** `npm --prefix projeto-completo run build`
+
+---
+
+## Documentação e Artefatos de Engenharia de Software
+
+- **Documento Mestre Único (9 Seções):** [DOCUMENTO_FINAL_FAMILY_PLACE.md](docs/DOCUMENTO_FINAL_FAMILY_PLACE.md)
+- **TAP e Escopo:** [PMCanvas (Markdown)](docs/artefatos/pmcanvas-family-place.md) · [PMCanvas (Visual SVG)](docs/artefatos/pmcanvas-family-place.svg)
+- **Elicitação e Protótipos:** [Questionário, Roteiro e LGPD](docs/artefatos/elicitacao-questionario-roteiro.md) · [Wireframes Baixa Fidelidade (SVG)](docs/artefatos/wireframes-baixa-fidelidade.svg)
+- **Requisitos:** [Planilha Versionada (CSV)](docs/artefatos/requisitos-family-place.csv)
+- **EAP e Cronograma:** [EAP (draw.io)](docs/artefatos/eap-family-place.drawio) · [EAP (SVG)](docs/artefatos/eap-family-place.svg) · [Cronograma (CSV)](docs/artefatos/cronograma-family-place.csv) · [Gantt (SVG)](docs/artefatos/gantt-family-place.svg)
+- **Backlog e Rastreabilidade:** [Backlog/Kanban (CSV)](docs/artefatos/backlog-kanban-planning-poker.csv) · [Kanban (SVG)](docs/artefatos/kanban-family-place.svg) · [Matriz de Rastreabilidade (CSV)](docs/artefatos/matriz-rastreabilidade.csv)
+- **Atas e Roteiro:** [Atas de Reunião](docs/artefatos/atas-reuniao.md) · [Roteiro 12 min (24/11)](docs/artefatos/roteiro-apresentacao-12min.md)

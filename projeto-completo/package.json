@@ -1,0 +1,14 @@
+{
+  "name": "family-place-completo",
+  "private": true,
+  "version": "2.0.0",
+  "description": "Aplicação completa Family Place (React + API Node.js + SQLite)",
+  "type": "module",
+  "scripts": {
+    "dev": "node dev.js",
+    "server": "node server/index.js",
+    "web": "npm --prefix web run dev",
+    "build": "npm --prefix web run build",
+    "test:api": "node server/test-api.js"
+  }
+}

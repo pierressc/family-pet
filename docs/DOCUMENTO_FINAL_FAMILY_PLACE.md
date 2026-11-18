@@ -2,7 +2,7 @@
 
 **Disciplinas Integradas:** Engenharia de Software (Prof. Fernando Marlon Soares Figueiredo) & Front-end (React)  
 **Repositório:** `family-pet` ([https://github.com/pierressc/family-pet](https://github.com/pierressc/family-pet))  
-**Versão Atual:** `1.1` · **Data:** `18/11/2026`  
+**Versão Atual:** `1.2` · **Data:** `18/11/2026`  
 
 ---
 
@@ -16,6 +16,7 @@
 | `0.4` | 18/11/2026 | `[Integrante 4]` & `[Integrante 5]` | Personas, Épicos, Histórias (`H01–H15`), DoD, Quadro Kanban, sessão de Planning Poker, Matriz de Rastreabilidade e Declaração de IA (Seções 7, 8 e 9). |
 | `1.0` | 18/11/2026 | `[Integrante 5 - Qualidade]` & Equipe | Revisão integral de coerência entre artefatos, verificação de rastreabilidade (0 lacunas) e fechamento do pacote documental para apresentação em 24/11/2026. |
 | `1.1` | 18/11/2026 | Pierre Cavalcanti & Equipe | Implementação e validação do MVP funcional em React (`RF001–RF009`, 31 pts *Must*) e atualização do Quadro Kanban e da Seção 8. |
+| `1.2` | 18/11/2026 | Pierre Cavalcanti & Equipe | Separação física entre `mvp/` (Apresentação 1 — 24/11) e `projeto-completo/` (Apresentação 2 — React + Banco de Dados SQLite cobrindo `RF001–RF014`). |
 
 ---
 
@@ -394,28 +395,30 @@ Uma história de usuário só passa para a coluna **Pronto** quando atender simu
 
 ---
 
-## 8. MVP em React (Opcional — Implementado)
+## 8. MVP em React (Opcional — Separado em `mvp/`) e Evolução Completa (`projeto-completo/`)
 
 > **Responsável pela escrita desta seção:** Pierre Cavalcanti & Equipe Front-end React
 
-Esta seção atende à etapa opcional de MVP funcional (bônus de até 0,5 ponto) e entrega a base da aplicação web em **React + Vite** para apresentação.
+Para atender às duas apresentações distintas sem misturar escopos, o repositório separa o **MVP simples** da **versão completa com banco de dados**:
 
-- **Status Atual:** **MVP funcional implementado e compilado (`vite build`)** no próprio repositório (`src/`), cobrindo **100% das 9 histórias *Must* (31 pontos)** com persistência local em `localStorage` (sem necessidade de backend externo).
-- **Fluxos Implementados no MVP (`RF001` a `RF009`):**
-  - **Busca com filtros combinados (`RF001`, `NF004`):** Base inicial com 15 estabelecimentos inclusivos (`OBJ1`), busca textual, filtro por categoria, combinação simultânea de tags dos pilares Infantil, PCD/Idosos e Pet Friendly, cenários rápidos e ordenação por qualquer um dos 4 pilares.
-  - **Perfil detalhado e 4 pilares clicáveis (`RF002`, `RF003`, `RF009`):** Exibição de médias independentes nos 4 pilares, filtro de comentários por pilar, tags confirmadas, link externo para Google Maps e vitrine informativa (*"Favoritos da Casa"*).
-  - **Avaliação multicritério (`RF004`, `RD003`):** Formulário exigindo nota de 1 a 5 estrelas nos 4 pilares com recálculo imediato e unicidade por cliente/estabelecimento.
-  - **Favoritos por critério (`RF005`):** Criação de listas personalizadas por companhia (ex.: *"Melhores para ir com meu Avô"*, *"Melhores para levar o Cachorro"*) com adição/remoção independente.
-  - **Contas e Painel do Estabelecimento (`RF006`, `RF007`, `RD001`):** Cadastro/login Cliente e Estabelecimento (com termo LGPD e atalhos de demonstração), edição de locais e cadastro de novos estabelecimentos com tags e vitrine.
-  - **Contato Direto sem Checkout (`RF008`, `RD002`):** Links diretos para WhatsApp e Site Oficial + formulário simples de solicitação de contato, sem pagamento interno.
-- **Instruções de Execução Local:**
-  1. Instalar dependências: `npm install`
-  2. Iniciar servidor de desenvolvimento: `npm run dev`
-  3. Gerar build de produção: `npm run build`
-- **Contas de Demonstração na Apresentação:**
-  - **Cliente Demo:** botão *"Entrar como Cliente Demo"* na janela de login (`camila@demo.local`).
-  - **Estabelecimento Demo:** botão *"Entrar como Estabelecimento Demo"* (`varanda@familyplace.local`), liberando o botão **Painel do Estabelecimento** no topo.
-- **Repositório:** [https://github.com/pierressc/family-pet](https://github.com/pierressc/family-pet) · Código-fonte em `src/` (`App.jsx`, `data/catalog.js`, `utils/ratings.js`, `components/`).
+### 8.1. MVP para Apresentação de Engenharia de Software (`mvp/` — 24/11)
+- **Localização:** pasta `mvp/` no repositório (`mvp/src/`), com persistência local em `localStorage` (sem servidor externo).
+- **Escopo implementado (`Must` — 9 histórias / 31 pontos):**
+  - `RF001`–`RF003`, `RF009`: Busca com filtros combinados em 15 locais iniciais e notas independentes nos 4 pilares com filtro por pilar.
+  - `RF004` (`RD003`): Avaliação multicritério nos 4 pilares com atualização sem duplicidade.
+  - `RF005`: Listas de favoritos personalizadas por critério.
+  - `RF006`–`RF008` (`RD001`, `RD002`): Contas Cliente/Estabelecimento, painel de cadastro/edição de tags/vitrine e redirecionamento direto para WhatsApp/Site (sem checkout).
+- **Execução local:** `cd mvp && npm install && npm run dev` (`http://localhost:5173`).
+
+### 8.2. Projeto Completo com React + SQLite (`projeto-completo/` — Dezembro)
+- **Localização:** pasta `projeto-completo/` (`server/` em Node.js + módulo nativo `node:sqlite` + `web/` em React/Vite).
+- **Evoluções implementadas além do MVP (`Should` e `Could` — `RF010` a `RF014` + `NF005`):**
+  - Banco de dados **SQLite** (`server/family-place.db`) com 13 tabelas normalizadas e hash `scrypt` de senhas (`NF005`).
+  - `RF010` / `RF011` (`RD004`): Seguir estabelecimentos e Timeline comunitária (texto ≤ 280 caracteres + 1 imagem + categoria *Evento/Promoção/Novidade*).
+  - `RF012` (`RD004`): Clube de Fidelidade e Cupons com validação de expiração e resgate único por usuário.
+  - `RF013` / `RF014`: Assistente Virtual de Recomendação em linguagem natural e sinalização comunitária de estrutura desatualizada.
+- **Execução local:** `cd projeto-completo && npm run dev` (sobe API SQLite na porta `3001` e React na porta `5174`).
+- **Repositório:** [https://github.com/pierressc/family-pet](https://github.com/pierressc/family-pet).
 
 ---
 
