@@ -24,7 +24,26 @@ Plataforma web comunitária voltada para ajudar **famílias com crianças, tutor
 
 ---
 
+## Como Executar o MVP em React
+
+O MVP funcional cobre 100% das **9 histórias Essenciais (`Must`: `RF001` a `RF009`)**, incluindo busca com filtros combinados em 15 estabelecimentos, avaliação multicritério nos 4 pilares, listas de favoritos por critério, contas Cliente/Estabelecimento, painel de gestão e contato direto via WhatsApp/Site sem intermediação financeira.
+
+```powershell
+npm install
+npm run dev
+```
+
+Para gerar o bundle de produção:
+
+```powershell
+npm run build
+```
+
+Na janela **Entrar / Cadastrar**, utilize os botões **Entrar como Cliente Demo** ou **Entrar como Estabelecimento Demo** para testar imediatamente todos os fluxos durante a apresentação.
+
+---
+
 ## Status do Projeto
 - [x] Pacote completo de documentação e artefatos de Engenharia de Software estruturado na branch `main`
+- [x] Desenvolvimento do **MVP em React** (histórias `Must` `RF001–RF009`, 31 pontos)
 - [ ] Coleta final de campo e preenchimento dos nomes dos demais integrantes (`[Integrante 2–5]`)
-- [ ] Desenvolvimento do **MVP em React** (aguardando autorização)

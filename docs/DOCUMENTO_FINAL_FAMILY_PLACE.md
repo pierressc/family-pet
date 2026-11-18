@@ -2,7 +2,7 @@
 
 **Disciplinas Integradas:** Engenharia de Software (Prof. Fernando Marlon Soares Figueiredo) & Front-end (React)  
 **Repositório:** `family-pet` ([https://github.com/pierressc/family-pet](https://github.com/pierressc/family-pet))  
-**Versão Atual:** `1.0` · **Data:** `18/11/2026`  
+**Versão Atual:** `1.1` · **Data:** `18/11/2026`  
 
 ---
 
@@ -15,6 +15,7 @@
 | `0.3` | 18/11/2026 | `[Integrante 2]` & `[Integrante 3]` | Especificação versionada (`RU`, `RF`, `NF`, `RD`) com MoSCoW, EAP hierárquica, marcos verificáveis e cronograma Sommerville +50% (Seções 5 e 6). |
 | `0.4` | 18/11/2026 | `[Integrante 4]` & `[Integrante 5]` | Personas, Épicos, Histórias (`H01–H15`), DoD, Quadro Kanban, sessão de Planning Poker, Matriz de Rastreabilidade e Declaração de IA (Seções 7, 8 e 9). |
 | `1.0` | 18/11/2026 | `[Integrante 5 - Qualidade]` & Equipe | Revisão integral de coerência entre artefatos, verificação de rastreabilidade (0 lacunas) e fechamento do pacote documental para apresentação em 24/11/2026. |
+| `1.1` | 18/11/2026 | Pierre Cavalcanti & Equipe | Implementação e validação do MVP funcional em React (`RF001–RF009`, 31 pts *Must*) e atualização do Quadro Kanban e da Seção 8. |
 
 ---
 
@@ -366,48 +367,55 @@ Uma história de usuário só passa para a coluna **Pronto** quando atender simu
 
 | ID | Epic | RF | Prioridade | Pts | Status Kanban | História de Usuário (*Como... eu quero... para que...*) | Critério de Aceite Resumido |
 | :--- | :--- | :--- | :--- | :---: | :--- | :--- | :--- |
-| **`H01`** | `EP01` Busca Inclusiva | `RF001` | Must | 5 | Em andamento | Como responsável por criança e tutor de pet, eu quero filtrar estabelecimentos combinando múltiplos critérios de acolhimento, para que eu encontre locais adequados sem perder tempo em pesquisas manuais. | Combinar categoria + 2+ tags de pilares distintos retornando apenas locais compatíveis e contagem. |
-| **`H02`** | `EP01` Busca Inclusiva | `RF002` | Must | 3 | Em andamento | Como familiar de pessoa idosa ou com deficiência, eu quero consultar os detalhes completos de estrutura e localização de um estabelecimento, para que eu tenha segurança de que o espaço atende às nossas necessidades antes de sair de casa. | Exibição de endereço, horário, tags confirmadas, vitrine e link externo de mapa. |
+| **`H01`** | `EP01` Busca Inclusiva | `RF001` | Must | 5 | Pronto | Como responsável por criança e tutor de pet, eu quero filtrar estabelecimentos combinando múltiplos critérios de acolhimento, para que eu encontre locais adequados sem perder tempo em pesquisas manuais. | Combinar categoria + 2+ tags de pilares distintos retornando apenas locais compatíveis e contagem. |
+| **`H02`** | `EP01` Busca Inclusiva | `RF002` | Must | 3 | Pronto | Como familiar de pessoa idosa ou com deficiência, eu quero consultar os detalhes completos de estrutura e localização de um estabelecimento, para que eu tenha segurança de que o espaço atende às nossas necessidades antes de sair de casa. | Exibição de endereço, horário, tags confirmadas, vitrine e link externo de mapa. |
 | **`H03`** | `EP01` Busca Inclusiva | `RF013` | Could | 8 | Backlog | Como usuário com pouca familiaridade com filtros avançados, eu quero descrever em linguagem natural o tipo de passeio que procuro, para que eu receba recomendações personalizadas com facilidade. | Assistente retorna até 5 locais compatíveis indicando os pilares atendidos. |
-| **`H04`** | `EP02` Avaliação e Favoritos | `RF003` | Must | 3 | Em andamento | Como visitante da comunidade, eu quero visualizar notas separadas para Infantil, Acessibilidade, Pet Friendly e Atendimento, para que eu avalie exatamente o pilar mais importante para minha família. | 4 médias independentes (1,0–5,0★) e total de avaliações exibidos separadamente. |
-| **`H05`** | `EP02` Avaliação e Favoritos | `RF004` | Must | 5 | Backlog | Como cliente que frequentou um local, eu quero avaliar o estabelecimento nos quatro pilares definidos, para que outras famílias tenham informações confiáveis e reais. | Cliente autenticado informa obrigatoriamente as 4 notas (1–5) e recalcula médias. |
-| **`H06`** | `EP02` Avaliação e Favoritos | `RF009` | Must | 2 | Backlog | Como tutor ou familiar, eu quero filtrar os comentários e notas pelo pilar de meu interesse, para que eu leia relatos específicos sobre estrutura infantil, acessibilidade ou receptividade pet. | Filtro por pilar destaca nota e comentários do pilar selecionado. |
-| **`H07`** | `EP02` Avaliação e Favoritos | `RF005` | Must | 3 | Backlog | Como usuário frequente, eu quero salvar locais favoritos em listas organizadas por critério, para que eu acesse rapidamente os melhores lugares para cada companhia. | Criação de listas temáticas independentes com adição e remoção de locais. |
+| **`H04`** | `EP02` Avaliação e Favoritos | `RF003` | Must | 3 | Pronto | Como visitante da comunidade, eu quero visualizar notas separadas para Infantil, Acessibilidade, Pet Friendly e Atendimento, para que eu avalie exatamente o pilar mais importante para minha família. | 4 médias independentes (1,0–5,0★) e total de avaliações exibidos separadamente. |
+| **`H05`** | `EP02` Avaliação e Favoritos | `RF004` | Must | 5 | Pronto | Como cliente que frequentou um local, eu quero avaliar o estabelecimento nos quatro pilares definidos, para que outras famílias tenham informações confiáveis e reais. | Cliente autenticado informa obrigatoriamente as 4 notas (1–5) e recalcula médias. |
+| **`H06`** | `EP02` Avaliação e Favoritos | `RF009` | Must | 2 | Pronto | Como tutor ou familiar, eu quero filtrar os comentários e notas pelo pilar de meu interesse, para que eu leia relatos específicos sobre estrutura infantil, acessibilidade ou receptividade pet. | Filtro por pilar destaca nota e comentários do pilar selecionado. |
+| **`H07`** | `EP02` Avaliação e Favoritos | `RF005` | Must | 3 | Pronto | Como usuário frequente, eu quero salvar locais favoritos em listas organizadas por critério, para que eu acesse rapidamente os melhores lugares para cada companhia. | Criação de listas temáticas independentes com adição e remoção de locais. |
 | **`H08`** | `EP03` Contas e Gestão | `RF006` | Must | 3 | Pronto | Como cliente ou responsável por estabelecimento, eu quero criar minha conta e acessar a plataforma de forma identificada, para que minhas avaliações, favoritos e dados do negócio fiquem vinculados ao meu perfil. | Cadastro diferenciado Cliente/Estabelecimento e restrição de rotas administrativas. |
-| **`H09`** | `EP03` Contas e Gestão | `RF007` | Must | 5 | Backlog | Como dono de comércio local, eu quero cadastrar as comodidades inclusivas e destacar os principais itens do meu negócio, para que famílias e tutores encontrem meu estabelecimento pelo diferencial de acolhimento. | Edição de tags e destaques *"Favoritos da Casa"* refletida no perfil público e busca. |
+| **`H09`** | `EP03` Contas e Gestão | `RF007` | Must | 5 | Pronto | Como dono de comércio local, eu quero cadastrar as comodidades inclusivas e destacar os principais itens do meu negócio, para que famílias e tutores encontrem meu estabelecimento pelo diferencial de acolhimento. | Edição de tags e destaques *"Favoritos da Casa"* refletida no perfil público e busca. |
 | **`H10`** | `EP03` Contas e Gestão | `RF008` | Must | 2 | Pronto | Como cliente interessado em reservar ou tirar dúvidas, eu quero ser encaminhado diretamente ao contato oficial do estabelecimento, para que eu negocie atendimento ou compra sem intermediários. | Links diretos WhatsApp/Site + formulário simples de contato, sem checkout interno. |
 | **`H11`** | `EP03` Contas e Gestão | `RF014` | Could | 3 | Backlog | Como usuário atento à acessibilidade, eu quero sinalizar informações desatualizadas sobre a estrutura de um local, para que a comunidade não seja prejudicada por dados incorretos. | Envio de divergência salva status *"Em verificação"*. |
-| **`H12`** | `EP04` Comunidade/Cupons | `RF010` | Should | 2 | Backlog | Como cliente engajado, eu quero seguir estabelecimentos que combinam com minha rotina, para que eu acompanhe novidades dos meus locais preferidos. | Seguir/deixar de seguir persistido com contador atualizado. |
-| **`H13`** | `EP04` Comunidade/Cupons | `RF011` | Should | 5 | Backlog | Como gestor de estabelecimento, eu quero publicar atualizações curtas com foto e categoria para meus seguidores, para que eu divulgue eventos inclusivos e promoções locais. | Texto ≤ 280 caracteres, 1 imagem e 1 tag exibidos na timeline dos seguidores. |
-| **`H14`** | `EP04` Comunidade/Cupons | `RF012` | Should | 5 | Backlog | Como membro da comunidade, eu quero resgatar cupons promocionais de estabelecimentos parceiros, para que eu obtenha vantagens e descontos ao visitar locais inclusivos. | Resgate de cupom ativo para *"Meus Cupons"*; bloqueio automático se expirado. |
+| **`H12`** | `EP04` Comunidade/Cupons | `RF010` | Should | 2 | Em andamento | Como cliente engajado, eu quero seguir estabelecimentos que combinam com minha rotina, para que eu acompanhe novidades dos meus locais preferidos. | Seguir/deixar de seguir persistido com contador atualizado. |
+| **`H13`** | `EP04` Comunidade/Cupons | `RF011` | Should | 5 | Em andamento | Como gestor de estabelecimento, eu quero publicar atualizações curtas com foto e categoria para meus seguidores, para que eu divulgue eventos inclusivos e promoções locais. | Texto ≤ 280 caracteres, 1 imagem e 1 tag exibidos na timeline dos seguidores. |
+| **`H14`** | `EP04` Comunidade/Cupons | `RF012` | Should | 5 | Em andamento | Como membro da comunidade, eu quero resgatar cupons promocionais de estabelecimentos parceiros, para que eu obtenha vantagens e descontos ao visitar locais inclusivos. | Resgate de cupom ativo para *"Meus Cupons"*; bloqueio automático se expirado. |
 | **`H15`** | `EP05` Escopo Futuro | `RF015` | Won't | 13 | Backlog | Como gestor ou cliente em versões futuras, eu quero realizar pagamentos, delivery próprio e avaliação por item em aplicativo nativo, para que toda a jornada ocorra em um único ecossistema. | Apenas rastreabilidade futura; fora do MVP atual. |
 
 ### 7.4. Quadro Kanban e Sessão de Planning Poker
 - **Distribuição Atual no Kanban (54 pontos ativos em `H01–H14`):**
-  - **Pronto (documentado/validado):** **5 pts** (`H08`, `H10`) — **9%** do backlog ativo.
-  - **Em andamento:** **11 pts** (`H01`, `H02`, `H04`) — **20%** do backlog ativo.
-  - **Backlog:** **38 pts ativos** (+13 pts de `H15` Won't).
-  - **Total do MVP React (`Must`):** 9 histórias = **31 pontos**.
+  - **Pronto (entregue no MVP React):** **31 pts** (`H01`, `H02`, `H04–H10`) — **57%** do backlog ativo (**100% das histórias *Must***).
+  - **Em andamento (incremento *Should*):** **12 pts** (`H12`, `H13`, `H14`) — **22%** do backlog ativo.
+  - **Backlog:** **11 pts ativos** (`H03`, `H11` *Could*) + 13 pts de `H15` (*Won't*).
 - **Registro da Sessão de Planning Poker (Ata completa em [atas-reuniao.md](artefatos/atas-reuniao.md)):**
   - **Data:** 19/11/2026 *(planejamento interno)* · **Participantes:** Pierre Cavalcanti e `[Integrantes 2 a 5]` · **Cartas:** Fibonacci (`0, ½, 1, 2, 3, 5, 8, 13`), votação secreta até consenso **sem média** (pontos representam esforço relativo, não horas).
   - **Divergência debatida (`H01` — Busca com filtros combinados):** Na 1ª rodada houve divergência entre **3** (`[Integrante 4]`, considerando filtragem simples) e **8** (Pierre e `[Integrante 2]`, considerando combinação simultânea de 4 pilares e meta `NF004 ≤ 1s`). Após discussão do maior ao menor, a equipe convergiu em **5 pontos**. Em `H03` (Chatbot), houve divergência entre **5** e **13**, fechando em **8 pontos**.
 
 ---
 
-## 8. MVP em React (Opcional — Aguardando Autorização)
+## 8. MVP em React (Opcional — Implementado)
 
 > **Responsável pela escrita desta seção:** Pierre Cavalcanti & Equipe Front-end React
 
-Esta seção atende à etapa opcional de MVP funcional (bônus de até 0,5 ponto) e conecta a documentação de Engenharia de Software à entrega de **Front-end (React)** prevista para a primeira semana de dezembro.
+Esta seção atende à etapa opcional de MVP funcional (bônus de até 0,5 ponto) e entrega a base da aplicação web em **React + Vite** para apresentação.
 
-- **Status Atual:** **Escopo definido e pronto para desenvolvimento após autorização explícita do coordenador/usuário.** Nenhum código de aplicação React foi gerado antes dessa autorização.
-- **Escopo do MVP React (apenas histórias *Must* — 31 pontos):**
-  - `RF001` / `H01`: Busca e listagem com filtros combinados dos 4 pilares.
-  - `RF002`, `RF003`, `RF009` / `H02`, `H04`, `H06`: Perfil detalhado com notas dos 4 pilares, filtro de comentários por pilar e vitrine *"Favoritos da Casa"*.
-  - `RF004` / `H05`: Formulário de avaliação multicritério (4 pilares obrigatórios).
-  - `RF005` / `H07`: Listas de favoritos personalizadas por critério.
-  - `RF006`, `RF007`, `RF008` / `H08`, `H09`, `H10`: Cadastro/login Cliente e Estabelecimento, painel de tags e links diretos para WhatsApp/Site oficial (sem pagamento).
-- **Link do Repositório e Deploy:** `[Inserir link do deploy Vercel/Netlify/GitHub Pages após autorização e construção do MVP]`
+- **Status Atual:** **MVP funcional implementado e compilado (`vite build`)** no próprio repositório (`src/`), cobrindo **100% das 9 histórias *Must* (31 pontos)** com persistência local em `localStorage` (sem necessidade de backend externo).
+- **Fluxos Implementados no MVP (`RF001` a `RF009`):**
+  - **Busca com filtros combinados (`RF001`, `NF004`):** Base inicial com 15 estabelecimentos inclusivos (`OBJ1`), busca textual, filtro por categoria, combinação simultânea de tags dos pilares Infantil, PCD/Idosos e Pet Friendly, cenários rápidos e ordenação por qualquer um dos 4 pilares.
+  - **Perfil detalhado e 4 pilares clicáveis (`RF002`, `RF003`, `RF009`):** Exibição de médias independentes nos 4 pilares, filtro de comentários por pilar, tags confirmadas, link externo para Google Maps e vitrine informativa (*"Favoritos da Casa"*).
+  - **Avaliação multicritério (`RF004`, `RD003`):** Formulário exigindo nota de 1 a 5 estrelas nos 4 pilares com recálculo imediato e unicidade por cliente/estabelecimento.
+  - **Favoritos por critério (`RF005`):** Criação de listas personalizadas por companhia (ex.: *"Melhores para ir com meu Avô"*, *"Melhores para levar o Cachorro"*) com adição/remoção independente.
+  - **Contas e Painel do Estabelecimento (`RF006`, `RF007`, `RD001`):** Cadastro/login Cliente e Estabelecimento (com termo LGPD e atalhos de demonstração), edição de locais e cadastro de novos estabelecimentos com tags e vitrine.
+  - **Contato Direto sem Checkout (`RF008`, `RD002`):** Links diretos para WhatsApp e Site Oficial + formulário simples de solicitação de contato, sem pagamento interno.
+- **Instruções de Execução Local:**
+  1. Instalar dependências: `npm install`
+  2. Iniciar servidor de desenvolvimento: `npm run dev`
+  3. Gerar build de produção: `npm run build`
+- **Contas de Demonstração na Apresentação:**
+  - **Cliente Demo:** botão *"Entrar como Cliente Demo"* na janela de login (`camila@demo.local`).
+  - **Estabelecimento Demo:** botão *"Entrar como Estabelecimento Demo"* (`varanda@familyplace.local`), liberando o botão **Painel do Estabelecimento** no topo.
+- **Repositório:** [https://github.com/pierressc/family-pet](https://github.com/pierressc/family-pet) · Código-fonte em `src/` (`App.jsx`, `data/catalog.js`, `utils/ratings.js`, `components/`).
 
 ---
 

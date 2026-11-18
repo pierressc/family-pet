@@ -3,88 +3,86 @@
   <!-- Header -->
   <rect x="0" y="0" width="1400" height="76" fill="#7a1c24"/>
   <text x="28" y="34" fill="#ffffff" font-size="22" font-weight="700">Quadro Kanban — Backlog e Pontos (Family Place)</text>
-  <text x="28" y="58" fill="#f3d9db" font-size="13">Escopo ativo (H01–H14): 54 pts · 5 de 54 pontos especificados/prontos (9%) · +13 pts Escopo Futuro (H15 Won't)</text>
+  <text x="28" y="58" fill="#f3d9db" font-size="13">Escopo ativo (H01–H14): 54 pts · 31 de 54 pontos concluídos no MVP React (57%) · +13 pts Escopo Futuro (H15 Won't)</text>
 
   <!-- Column 1: Backlog -->
   <rect x="24" y="96" width="435" height="655" rx="12" fill="#f0ebe7"/>
-  <text x="44" y="128" fill="#7a1c24" font-size="16" font-weight="700">Backlog · 38 pts ativos (+13 Won't)</text>
+  <text x="44" y="128" fill="#7a1c24" font-size="16" font-weight="700">Backlog · 11 pts ativos (+13 Won't)</text>
 
-  <rect x="40" y="146" width="403" height="52" rx="8" fill="#ffffff" stroke="#d8cfc9"/>
-  <text x="54" y="168" fill="#222" font-size="13" font-weight="700">H05 · Publicar avaliação 4 pilares</text>
-  <text x="54" y="187" fill="#666" font-size="11.5">RF004 · Must · 5 pts · EP02</text>
+  <rect x="40" y="148" width="403" height="84" rx="8" fill="#ffffff" stroke="#d8cfc9"/>
+  <text x="54" y="176" fill="#222" font-size="14" font-weight="700">H03 · Assistente Virtual Chatbot (IA)</text>
+  <text x="54" y="198" fill="#666" font-size="12">RF013 · Could · 8 pts · EP01</text>
+  <text x="54" y="218" fill="#555" font-size="11.5">Planejado para etapa incremental após o MVP Must</text>
 
-  <rect x="40" y="206" width="403" height="52" rx="8" fill="#ffffff" stroke="#d8cfc9"/>
-  <text x="54" y="228" fill="#222" font-size="13" font-weight="700">H06 · Filtrar comentários por pilar</text>
-  <text x="54" y="247" fill="#666" font-size="11.5">RF009 · Must · 2 pts · EP02</text>
+  <rect x="40" y="246" width="403" height="84" rx="8" fill="#ffffff" stroke="#d8cfc9"/>
+  <text x="54" y="274" fill="#222" font-size="14" font-weight="700">H11 · Sinalizar estrutura desatualizada</text>
+  <text x="54" y="296" fill="#666" font-size="12">RF014 · Could · 3 pts · EP03</text>
+  <text x="54" y="316" fill="#555" font-size="11.5">Reporte comunitário de divergências</text>
 
-  <rect x="40" y="266" width="403" height="52" rx="8" fill="#ffffff" stroke="#d8cfc9"/>
-  <text x="54" y="288" fill="#222" font-size="13" font-weight="700">H07 · Listas de favoritos por critério</text>
-  <text x="54" y="307" fill="#666" font-size="11.5">RF005 · Must · 3 pts · EP02</text>
-
-  <rect x="40" y="326" width="403" height="52" rx="8" fill="#ffffff" stroke="#d8cfc9"/>
-  <text x="54" y="348" fill="#222" font-size="13" font-weight="700">H09 · Painel tags e Favoritos da Casa</text>
-  <text x="54" y="367" fill="#666" font-size="11.5">RF007 · Must · 5 pts · EP03</text>
-
-  <rect x="40" y="386" width="403" height="52" rx="8" fill="#ffffff" stroke="#d8cfc9"/>
-  <text x="54" y="408" fill="#222" font-size="13" font-weight="700">H12 · Seguir estabelecimentos</text>
-  <text x="54" y="427" fill="#666" font-size="11.5">RF010 · Should · 2 pts · EP04</text>
-
-  <rect x="40" y="446" width="403" height="52" rx="8" fill="#ffffff" stroke="#d8cfc9"/>
-  <text x="54" y="468" fill="#222" font-size="13" font-weight="700">H13 · Timeline (texto + imagem + tag)</text>
-  <text x="54" y="487" fill="#666" font-size="11.5">RF011 · Should · 5 pts · EP04</text>
-
-  <rect x="40" y="506" width="403" height="52" rx="8" fill="#ffffff" stroke="#d8cfc9"/>
-  <text x="54" y="528" fill="#222" font-size="13" font-weight="700">H14 · Clube de Fidelidade e Cupons</text>
-  <text x="54" y="547" fill="#666" font-size="11.5">RF012 · Should · 5 pts · EP04</text>
-
-  <rect x="40" y="566" width="403" height="52" rx="8" fill="#ffffff" stroke="#d8cfc9"/>
-  <text x="54" y="588" fill="#222" font-size="13" font-weight="700">H03 · Assistente Virtual Chatbot (IA)</text>
-  <text x="54" y="607" fill="#666" font-size="11.5">RF013 · Could · 8 pts · EP01</text>
-
-  <rect x="40" y="626" width="403" height="52" rx="8" fill="#ffffff" stroke="#d8cfc9"/>
-  <text x="54" y="648" fill="#222" font-size="13" font-weight="700">H11 · Sinalizar estrutura desatualizada</text>
-  <text x="54" y="667" fill="#666" font-size="11.5">RF014 · Could · 3 pts · EP03</text>
-
-  <rect x="40" y="686" width="403" height="52" rx="8" fill="#f7f4f1" stroke="#b5a9a3" stroke-dasharray="4 3"/>
-  <text x="54" y="708" fill="#666" font-size="13" font-weight="700">H15 · Pagamento, delivery e app nativo</text>
-  <text x="54" y="727" fill="#888" font-size="11.5">RF015 · Won't (Futuro) · 13 pts · EP05</text>
+  <rect x="40" y="344" width="403" height="84" rx="8" fill="#f7f4f1" stroke="#b5a9a3" stroke-dasharray="4 3"/>
+  <text x="54" y="372" fill="#666" font-size="14" font-weight="700">H15 · Pagamento, delivery e app nativo</text>
+  <text x="54" y="394" fill="#888" font-size="12">RF015 · Won't (Fora do escopo) · 13 pts · EP05</text>
+  <text x="54" y="414" fill="#888" font-size="11.5">Registrado apenas para evolução futura</text>
 
   <!-- Column 2: Em andamento -->
   <rect x="482" y="96" width="435" height="655" rx="12" fill="#f0ebe7"/>
-  <text x="502" y="128" fill="#7a1c24" font-size="16" font-weight="700">Em andamento · 11 pts</text>
+  <text x="502" y="128" fill="#7a1c24" font-size="16" font-weight="700">Em andamento (Incremento Should) · 12 pts</text>
 
-  <rect x="498" y="146" width="403" height="96" rx="8" fill="#ffffff" stroke="#7a1c24" stroke-width="1.5"/>
-  <text x="514" y="174" fill="#222" font-size="14" font-weight="700">H01 · Busca com filtros combinados</text>
-  <text x="514" y="196" fill="#555" font-size="12">RF001 · Must · 5 pts · EP01</text>
-  <text x="514" y="218" fill="#7a1c24" font-size="11.5">Wireframe validado; pronto p/ sprint MVP React</text>
+  <rect x="498" y="148" width="403" height="90" rx="8" fill="#ffffff" stroke="#7a1c24" stroke-width="1.5"/>
+  <text x="514" y="176" fill="#222" font-size="14" font-weight="700">H12 · Seguir estabelecimentos locais</text>
+  <text x="514" y="198" fill="#555" font-size="12">RF010 · Should · 2 pts · EP04</text>
+  <text x="514" y="220" fill="#7a1c24" font-size="11.5">Próximo incremento de Front-end (dezembro)</text>
 
-  <rect x="498" y="256" width="403" height="96" rx="8" fill="#ffffff" stroke="#7a1c24" stroke-width="1.5"/>
-  <text x="514" y="284" fill="#222" font-size="14" font-weight="700">H02 · Perfil detalhado do local</text>
-  <text x="514" y="306" fill="#555" font-size="12">RF002 · Must · 3 pts · EP01</text>
-  <text x="514" y="328" fill="#7a1c24" font-size="11.5">Wireframe e critérios de contraste WCAG definidos</text>
+  <rect x="498" y="252" width="403" height="90" rx="8" fill="#ffffff" stroke="#7a1c24" stroke-width="1.5"/>
+  <text x="514" y="280" fill="#222" font-size="14" font-weight="700">H13 · Timeline (texto + 1 imagem + tag)</text>
+  <text x="514" y="302" fill="#555" font-size="12">RF011 · Should · 5 pts · EP04</text>
+  <text x="514" y="324" fill="#7a1c24" font-size="11.5">Feed de eventos, promoções e novidades</text>
 
-  <rect x="498" y="366" width="403" height="96" rx="8" fill="#ffffff" stroke="#7a1c24" stroke-width="1.5"/>
-  <text x="514" y="394" fill="#222" font-size="14" font-weight="700">H04 · Consultar médias nos 4 pilares</text>
-  <text x="514" y="416" fill="#555" font-size="12">RF003 · Must · 3 pts · EP02</text>
-  <text x="514" y="438" fill="#7a1c24" font-size="11.5">Fórmula e layout dos 4 cartões especificados</text>
+  <rect x="498" y="356" width="403" height="90" rx="8" fill="#ffffff" stroke="#7a1c24" stroke-width="1.5"/>
+  <text x="514" y="384" fill="#222" font-size="14" font-weight="700">H14 · Clube de Fidelidade e Cupons</text>
+  <text x="514" y="406" fill="#555" font-size="12">RF012 · Should · 5 pts · EP04</text>
+  <text x="514" y="428" fill="#7a1c24" font-size="11.5">Resgate presencial com validação de prazo</text>
 
   <!-- Column 3: Pronto -->
   <rect x="940" y="96" width="435" height="655" rx="12" fill="#f0ebe7"/>
-  <text x="960" y="128" fill="#1b6b46" font-size="16" font-weight="700">Pronto (Documentado/Validado) · 5 pts</text>
+  <text x="960" y="128" fill="#1b6b46" font-size="16" font-weight="700">Pronto (MVP React Must) · 31 pts</text>
 
-  <rect x="956" y="146" width="403" height="96" rx="8" fill="#ffffff" stroke="#1b6b46" stroke-width="1.5"/>
-  <text x="972" y="174" fill="#222" font-size="14" font-weight="700">H08 · Contas Cliente e Estabelecimento</text>
-  <text x="972" y="196" fill="#555" font-size="12">RF006 · Must · 3 pts · EP03</text>
-  <text x="972" y="218" fill="#1b6b46" font-size="11.5">✓ Critérios, LGPD (RD001) e wireframe validados</text>
+  <rect x="956" y="146" width="403" height="52" rx="8" fill="#ffffff" stroke="#1b6b46" stroke-width="1.4"/>
+  <text x="970" y="168" fill="#222" font-size="13" font-weight="700">✓ H01 · Busca com filtros combinados</text>
+  <text x="970" y="187" fill="#1b6b46" font-size="11.5">RF001 · Must · 5 pts · EP01</text>
 
-  <rect x="956" y="256" width="403" height="96" rx="8" fill="#ffffff" stroke="#1b6b46" stroke-width="1.5"/>
-  <text x="972" y="284" fill="#222" font-size="14" font-weight="700">H10 · Redirect WhatsApp / Site Oficial</text>
-  <text x="972" y="306" fill="#555" font-size="12">RF008 · Must · 2 pts · EP03</text>
-  <text x="972" y="328" fill="#1b6b46" font-size="11.5">✓ Regra RD002 (sem checkout) fechada e validada</text>
+  <rect x="956" y="206" width="403" height="52" rx="8" fill="#ffffff" stroke="#1b6b46" stroke-width="1.4"/>
+  <text x="970" y="228" fill="#222" font-size="13" font-weight="700">✓ H02 · Perfil detalhado do local</text>
+  <text x="970" y="247" fill="#1b6b46" font-size="11.5">RF002 · Must · 3 pts · EP01</text>
 
-  <rect x="956" y="376" width="403" height="110" rx="8" fill="#e9f5ee" stroke="#1b6b46"/>
-  <text x="972" y="402" fill="#1b6b46" font-size="13" font-weight="700">Resumo de Acompanhamento</text>
-  <text x="972" y="424" fill="#222" font-size="12">• Histórias Must (MVP React): 9 histórias (31 pts)</text>
-  <text x="972" y="444" fill="#222" font-size="12">• Histórias Should: 3 histórias (12 pts)</text>
-  <text x="972" y="464" fill="#222" font-size="12">• Histórias Could: 2 histórias (11 pts)</text>
+  <rect x="956" y="266" width="403" height="52" rx="8" fill="#ffffff" stroke="#1b6b46" stroke-width="1.4"/>
+  <text x="970" y="288" fill="#222" font-size="13" font-weight="700">✓ H04 · Consultar médias nos 4 pilares</text>
+  <text x="970" y="307" fill="#1b6b46" font-size="11.5">RF003 · Must · 3 pts · EP02</text>
+
+  <rect x="956" y="326" width="403" height="52" rx="8" fill="#ffffff" stroke="#1b6b46" stroke-width="1.4"/>
+  <text x="970" y="348" fill="#222" font-size="13" font-weight="700">✓ H05 · Publicar avaliação 4 pilares</text>
+  <text x="970" y="367" fill="#1b6b46" font-size="11.5">RF004 · Must · 5 pts · EP02</text>
+
+  <rect x="956" y="386" width="403" height="52" rx="8" fill="#ffffff" stroke="#1b6b46" stroke-width="1.4"/>
+  <text x="970" y="408" fill="#222" font-size="13" font-weight="700">✓ H06 · Filtrar comentários por pilar</text>
+  <text x="970" y="427" fill="#1b6b46" font-size="11.5">RF009 · Must · 2 pts · EP02</text>
+
+  <rect x="956" y="446" width="403" height="52" rx="8" fill="#ffffff" stroke="#1b6b46" stroke-width="1.4"/>
+  <text x="970" y="468" fill="#222" font-size="13" font-weight="700">✓ H07 · Listas de favoritos por critério</text>
+  <text x="970" y="487" fill="#1b6b46" font-size="11.5">RF005 · Must · 3 pts · EP02</text>
+
+  <rect x="956" y="506" width="403" height="52" rx="8" fill="#ffffff" stroke="#1b6b46" stroke-width="1.4"/>
+  <text x="970" y="528" fill="#222" font-size="13" font-weight="700">✓ H08 · Contas Cliente e Estabelecimento</text>
+  <text x="970" y="547" fill="#1b6b46" font-size="11.5">RF006 · Must · 3 pts · EP03</text>
+
+  <rect x="956" y="566" width="403" height="52" rx="8" fill="#ffffff" stroke="#1b6b46" stroke-width="1.4"/>
+  <text x="970" y="588" fill="#222" font-size="13" font-weight="700">✓ H09 · Painel tags e Favoritos da Casa</text>
+  <text x="970" y="607" fill="#1b6b46" font-size="11.5">RF007 · Must · 5 pts · EP03</text>
+
+  <rect x="956" y="626" width="403" height="52" rx="8" fill="#ffffff" stroke="#1b6b46" stroke-width="1.4"/>
+  <text x="970" y="648" fill="#222" font-size="13" font-weight="700">✓ H10 · Redirect WhatsApp / Site Oficial</text>
+  <text x="970" y="667" fill="#1b6b46" font-size="11.5">RF008 · Must · 2 pts · EP03</text>
+
+  <rect x="956" y="688" width="403" height="48" rx="8" fill="#e9f5ee" stroke="#1b6b46"/>
+  <text x="972" y="717" fill="#1b6b46" font-size="12.5" font-weight="700">100% das histórias Must (31/31 pts) entregues no MVP!</text>
 </svg>
