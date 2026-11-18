@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 580" width="1400" height="580" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="1400" height="580" fill="#faf7f5"/>
+  <!-- Header -->
+  <rect x="0" y="0" width="1400" height="72" fill="#7a1c24"/>
+  <text x="28" y="34" fill="#ffffff" font-size="22" font-weight="700">EAP — Estrutura Analítica do Projeto Family Place</text>
+  <text x="28" y="56" fill="#f3d9db" font-size="13">100% alinhada ao escopo definido no TAP · Fonte editável: eap-family-place.drawio</text>
+
+  <!-- Root -->
+  <rect x="520" y="96" width="360" height="60" rx="10" fill="#7a1c24"/>
+  <text x="700" y="123" fill="#ffffff" font-size="16" font-weight="700" text-anchor="middle">0. Family Place</text>
+  <text x="700" y="143" fill="#f3d9db" font-size="12" text-anchor="middle">Engenharia de Software &amp; Front-end React</text>
+
+  <!-- Connector lines from root -->
+  <line x1="700" y1="156" x2="700" y2="184" stroke="#7a1c24" stroke-width="2"/>
+  <line x1="185" y1="184" x2="1215" y2="184" stroke="#7a1c24" stroke-width="2"/>
+  <line x1="185" y1="184" x2="185" y2="210" stroke="#7a1c24" stroke-width="2"/>
+  <line x1="528" y1="184" x2="528" y2="210" stroke="#7a1c24" stroke-width="2"/>
+  <line x1="872" y1="184" x2="872" y2="210" stroke="#7a1c24" stroke-width="2"/>
+  <line x1="1215" y1="184" x2="1215" y2="210" stroke="#7a1c24" stroke-width="2"/>
+
+  <!-- Branch 1 -->
+  <rect x="45" y="210" width="280" height="48" rx="8" fill="#f5ece9" stroke="#7a1c24" stroke-width="2"/>
+  <text x="185" y="240" fill="#7a1c24" font-size="15" font-weight="700" text-anchor="middle">1. Gestão</text>
+  <line x1="185" y1="258" x2="185" y2="288" stroke="#999" stroke-width="1.5"/>
+  <rect x="45" y="288" width="280" height="86" rx="8" fill="#ffffff" stroke="#c8bdb7" stroke-width="1.5"/>
+  <text x="60" y="312" fill="#222" font-size="13" font-weight="700">1.1 TAP, PMCanvas e Escopo</text>
+  <text x="60" y="332" fill="#555" font-size="12">Objetivos SMART, viabilidade e escopo</text>
+  <text x="60" y="350" fill="#555" font-size="12">negativo (sem pagamento/delivery)</text>
+  <text x="60" y="366" fill="#7a1c24" font-size="11.5" font-weight="700">Marco M1 · Resp.: Coordenação</text>
+
+  <line x1="185" y1="374" x2="185" y2="404" stroke="#999" stroke-width="1.5"/>
+  <rect x="45" y="404" width="280" height="86" rx="8" fill="#ffffff" stroke="#c8bdb7" stroke-width="1.5"/>
+  <text x="60" y="428" fill="#222" font-size="13" font-weight="700">1.2 Processo e Acompanhamento</text>
+  <text x="60" y="448" fill="#555" font-size="12">Scrum + Kanban, atas curtas de reunião</text>
+  <text x="60" y="466" fill="#555" font-size="12">e declaração de uso de IA</text>
+  <text x="60" y="482" fill="#7a1c24" font-size="11.5" font-weight="700">Marco M5 · Resp.: Coordenação/Qual.</text>
+
+  <!-- Branch 2 -->
+  <rect x="388" y="210" width="280" height="48" rx="8" fill="#f5ece9" stroke="#7a1c24" stroke-width="2"/>
+  <text x="528" y="240" fill="#7a1c24" font-size="15" font-weight="700" text-anchor="middle">2. Requisitos</text>
+  <line x1="528" y1="258" x2="528" y2="288" stroke="#999" stroke-width="1.5"/>
+  <rect x="388" y="288" width="280" height="86" rx="8" fill="#ffffff" stroke="#c8bdb7" stroke-width="1.5"/>
+  <text x="403" y="312" fill="#222" font-size="13" font-weight="700">2.1 Elicitação e Wireframes</text>
+  <text x="403" y="332" fill="#555" font-size="12">Google Forms + Entrevistas (LGPD) e</text>
+  <text x="403" y="350" fill="#555" font-size="12">protótipos de baixa fidelidade validados</text>
+  <text x="403" y="366" fill="#7a1c24" font-size="11.5" font-weight="700">Marco M2 · Resp.: Requisitos</text>
+
+  <line x1="528" y1="374" x2="528" y2="404" stroke="#999" stroke-width="1.5"/>
+  <rect x="388" y="404" width="280" height="86" rx="8" fill="#ffffff" stroke="#c8bdb7" stroke-width="1.5"/>
+  <text x="403" y="428" fill="#222" font-size="13" font-weight="700">2.2 Especificação de Requisitos</text>
+  <text x="403" y="448" fill="#555" font-size="12">RU01–08, RF001–015 (MoSCoW 60/20/13/7),</text>
+  <text x="403" y="466" fill="#555" font-size="12">NF001–006 e RD001–004 verificáveis</text>
+  <text x="403" y="482" fill="#7a1c24" font-size="11.5" font-weight="700">Marco M3 · Resp.: Requisitos</text>
+
+  <!-- Branch 3 -->
+  <rect x="732" y="210" width="280" height="48" rx="8" fill="#f5ece9" stroke="#7a1c24" stroke-width="2"/>
+  <text x="872" y="240" fill="#7a1c24" font-size="15" font-weight="700" text-anchor="middle">3. Planejamento</text>
+  <line x1="872" y1="258" x2="872" y2="288" stroke="#999" stroke-width="1.5"/>
+  <rect x="732" y="288" width="280" height="86" rx="8" fill="#ffffff" stroke="#c8bdb7" stroke-width="1.5"/>
+  <text x="747" y="312" fill="#222" font-size="13" font-weight="700">3.1 EAP, Marcos e Cronograma</text>
+  <text x="747" y="332" fill="#555" font-size="12">Dependências, pessoas alocadas e</text>
+  <text x="747" y="350" fill="#555" font-size="12">Regra de Sommerville (+50%)</text>
+  <text x="747" y="366" fill="#7a1c24" font-size="11.5" font-weight="700">Marco M4 · Resp.: Planejamento</text>
+
+  <line x1="872" y1="374" x2="872" y2="404" stroke="#999" stroke-width="1.5"/>
+  <rect x="732" y="404" width="280" height="86" rx="8" fill="#ffffff" stroke="#c8bdb7" stroke-width="1.5"/>
+  <text x="747" y="428" fill="#222" font-size="13" font-weight="700">3.2 Backlog e Planning Poker</text>
+  <text x="747" y="448" fill="#555" font-size="12">Personas, Épicos EP01–05, H01–H15,</text>
+  <text x="747" y="466" fill="#555" font-size="12">Kanban e ata de consenso Fibonacci</text>
+  <text x="747" y="482" fill="#7a1c24" font-size="11.5" font-weight="700">Marco M4 · Resp.: Backlog</text>
+
+  <!-- Branch 4 -->
+  <rect x="1075" y="210" width="280" height="48" rx="8" fill="#f5ece9" stroke="#7a1c24" stroke-width="2"/>
+  <text x="1215" y="240" fill="#7a1c24" font-size="15" font-weight="700" text-anchor="middle">4. Entrega e MVP</text>
+  <line x1="1215" y1="258" x2="1215" y2="288" stroke="#999" stroke-width="1.5"/>
+  <rect x="1075" y="288" width="280" height="86" rx="8" fill="#ffffff" stroke="#c8bdb7" stroke-width="1.5"/>
+  <text x="1090" y="312" fill="#222" font-size="13" font-weight="700">4.1 Doc Final e Rastreabilidade</text>
+  <text x="1090" y="332" fill="#555" font-size="12">Documento único, matriz ponta a ponta</text>
+  <text x="1090" y="350" fill="#555" font-size="12">e apresentação em 24/11 (12 min)</text>
+  <text x="1090" y="366" fill="#7a1c24" font-size="11.5" font-weight="700">Marco M5 · Resp.: Qualidade + Equipe</text>
+
+  <line x1="1215" y1="374" x2="1215" y2="404" stroke="#1b6b46" stroke-width="1.5"/>
+  <rect x="1075" y="404" width="280" height="86" rx="8" fill="#e9f5ee" stroke="#1b6b46" stroke-width="1.8"/>
+  <text x="1090" y="428" fill="#1b6b46" font-size="13" font-weight="700">4.2 MVP React (Front-end)</text>
+  <text x="1090" y="448" fill="#222" font-size="12">Implementação histórias Must (RF001–009),</text>
+  <text x="1090" y="466" fill="#222" font-size="12">acessibilidade WCAG AA e entrega 08/12</text>
+  <text x="1090" y="482" fill="#1b6b46" font-size="11.5" font-weight="700">Marco M6 · Resp.: Equipe Front-end</text>
+
+  <!-- Footer legend -->
+  <rect x="45" y="516" width="1310" height="42" rx="8" fill="#ffffff" stroke="#d8cfc9"/>
+  <text x="64" y="542" fill="#333" font-size="12.5"><tspan font-weight="700" fill="#7a1c24">Marcos Verificáveis:</tspan> M1: TAP/Escopo aprovados · M2: Elicitação e wireframes validados · M3: Requisitos versionados · M4: Cronograma e Backlog estimados · M5: Doc Final apresentado (24/11) · M6: MVP React entregue (08/12)</text>
+</svg>

@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 980" width="1440" height="980" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="1440" height="980" fill="#f5f3f1"/>
+  <!-- Header -->
+  <rect x="0" y="0" width="1440" height="72" fill="#2c2424"/>
+  <text x="28" y="34" fill="#ffffff" font-size="22" font-weight="700">Protótipos de Baixa Fidelidade (Wireframes) — Family Place</text>
+  <text x="28" y="56" fill="#d8cfc9" font-size="13">Fluxos das histórias Essenciais (Must): RF001 a RF009 · Validação prévia à especificação final e ao MVP React</text>
+
+  <!-- TELA 1: Busca Combinada -->
+  <rect x="24" y="92" width="445" height="415" rx="12" fill="#ffffff" stroke="#555" stroke-width="2"/>
+  <text x="40" y="118" fill="#7a1c24" font-size="14" font-weight="700">Tela 1 · Busca com Filtros Combinados (RF001, RF003)</text>
+  <!-- Top bar -->
+  <rect x="40" y="132" width="413" height="36" rx="6" fill="#f0ece9" stroke="#999" stroke-dasharray="4 3"/>
+  <text x="52" y="155" fill="#444" font-size="12">🔍 Buscar por nome, bairro ou categoria...</text>
+  <!-- Filter chips -->
+  <text x="40" y="188" fill="#333" font-size="11.5" font-weight="700">Filtros combinados ativos:</text>
+  <rect x="40" y="196" width="126" height="26" rx="13" fill="#7a1c24"/>
+  <text x="103" y="213" fill="#fff" font-size="11" text-anchor="middle">✓ Espaço Kids</text>
+  <rect x="174" y="196" width="136" height="26" rx="13" fill="#7a1c24"/>
+  <text x="242" y="213" fill="#fff" font-size="11" text-anchor="middle">✓ Rampa + Banheiro</text>
+  <rect x="318" y="196" width="135" height="26" rx="13" fill="#7a1c24"/>
+  <text x="385" y="213" fill="#fff" font-size="11" text-anchor="middle">✓ Pet Médio Porte</text>
+  <!-- Card 1 -->
+  <rect x="40" y="236" width="413" height="118" rx="8" fill="#faf8f6" stroke="#888" stroke-dasharray="5 3"/>
+  <rect x="52" y="248" width="84" height="70" rx="6" fill="#e2dcd7" stroke="#999"/>
+  <text x="94" y="287" fill="#666" font-size="11" text-anchor="middle">[Foto Local]</text>
+  <text x="148" y="264" fill="#222" font-size="13" font-weight="700">Café Varanda Inclusiva</text>
+  <text x="148" y="282" fill="#555" font-size="11">Restaurante · Bairro Centro · 1,2 km</text>
+  <text x="148" y="302" fill="#222" font-size="11">Kids 4.8★ | PCD/Idoso 4.9★ | Pet 4.7★ | Atend. 4.6★</text>
+  <rect x="148" y="314" width="120" height="24" rx="4" fill="#e8e2dd" stroke="#777"/>
+  <text x="208" y="330" fill="#222" font-size="11" text-anchor="middle">Ver Detalhes →</text>
+  <rect x="278" y="314" width="90" height="24" rx="4" fill="#fff" stroke="#777"/>
+  <text x="323" y="330" fill="#222" font-size="11" text-anchor="middle">♡ Favoritar</text>
+  <!-- Card 2 -->
+  <rect x="40" y="366" width="413" height="118" rx="8" fill="#faf8f6" stroke="#888" stroke-dasharray="5 3"/>
+  <rect x="52" y="378" width="84" height="70" rx="6" fill="#e2dcd7" stroke="#999"/>
+  <text x="94" y="417" fill="#666" font-size="11" text-anchor="middle">[Foto Local]</text>
+  <text x="148" y="394" fill="#222" font-size="13" font-weight="700">Bistrô Parque das Famílias</text>
+  <text x="148" y="412" fill="#555" font-size="11">Bistrô · Bairro Jardim · 2,5 km</text>
+  <text x="148" y="432" fill="#222" font-size="11">Kids 4.5★ | PCD/Idoso 4.4★ | Pet 4.9★ | Atend. 4.7★</text>
+  <rect x="148" y="444" width="120" height="24" rx="4" fill="#e8e2dd" stroke="#777"/>
+  <text x="208" y="460" fill="#222" font-size="11" text-anchor="middle">Ver Detalhes →</text>
+
+  <!-- TELA 2: Perfil do Estabelecimento -->
+  <rect x="497" y="92" width="445" height="415" rx="12" fill="#ffffff" stroke="#555" stroke-width="2"/>
+  <text x="513" y="118" fill="#7a1c24" font-size="14" font-weight="700">Tela 2 · Perfil do Estabelecimento (RF002, RF008, RF009)</text>
+  <rect x="513" y="132" width="413" height="58" rx="6" fill="#e8e2dd" stroke="#999" stroke-dasharray="4 3"/>
+  <text x="525" y="154" fill="#222" font-size="13" font-weight="700">Café Varanda Inclusiva  [+ Seguir] [♡ Salvar]</text>
+  <text x="525" y="174" fill="#555" font-size="11">Rua das Flores, 120 · Aberto 08h–22h · [Ver no Mapa ↗]</text>
+  <!-- 4 Pilares -->
+  <text x="513" y="210" fill="#333" font-size="12" font-weight="700">Notas por Pilar (clique para filtrar comentários):</text>
+  <rect x="513" y="218" width="98" height="44" rx="6" fill="#faf8f6" stroke="#7a1c24"/>
+  <text x="562" y="236" fill="#7a1c24" font-size="11" font-weight="700" text-anchor="middle">Kids</text>
+  <text x="562" y="253" fill="#222" font-size="12" text-anchor="middle">4.8 ★</text>
+  <rect x="618" y="218" width="98" height="44" rx="6" fill="#faf8f6" stroke="#888"/>
+  <text x="667" y="236" fill="#333" font-size="11" font-weight="700" text-anchor="middle">PCD / Idoso</text>
+  <text x="667" y="253" fill="#222" font-size="12" text-anchor="middle">4.9 ★</text>
+  <rect x="723" y="218" width="98" height="44" rx="6" fill="#faf8f6" stroke="#888"/>
+  <text x="772" y="236" fill="#333" font-size="11" font-weight="700" text-anchor="middle">Pet Friendly</text>
+  <text x="772" y="253" fill="#222" font-size="12" text-anchor="middle">4.7 ★</text>
+  <rect x="828" y="218" width="98" height="44" rx="6" fill="#faf8f6" stroke="#888"/>
+  <text x="877" y="236" fill="#333" font-size="11" font-weight="700" text-anchor="middle">Atend./Preço</text>
+  <text x="877" y="253" fill="#222" font-size="12" text-anchor="middle">4.6 ★</text>
+  <!-- Tags & Vitrine -->
+  <rect x="513" y="274" width="413" height="62" rx="6" fill="#faf8f6" stroke="#999" stroke-dasharray="4 3"/>
+  <text x="525" y="294" fill="#333" font-size="11.5" font-weight="700">Comodidades: [Trocador] [Rampa] [Banheiro PCD] [Área Pet Coberta]</text>
+  <text x="525" y="316" fill="#555" font-size="11">Vitrine ("Favoritos da Casa"): Café Especial · Lanche Kids · Petisco Canino</text>
+  <!-- Contato externo (Sem pagamento) -->
+  <rect x="513" y="348" width="198" height="34" rx="6" fill="#1b6b46"/>
+  <text x="612" y="369" fill="#fff" font-size="12" font-weight="700" text-anchor="middle">Chamar no WhatsApp ↗</text>
+  <rect x="723" y="348" width="203" height="34" rx="6" fill="#fff" stroke="#444" stroke-width="1.5"/>
+  <text x="824" y="369" fill="#222" font-size="12" font-weight="700" text-anchor="middle">Site Oficial / Solicitar Contato</text>
+  <!-- Comentários filtrados -->
+  <rect x="513" y="394" width="413" height="96" rx="6" fill="#faf8f6" stroke="#999" stroke-dasharray="4 3"/>
+  <text x="525" y="414" fill="#333" font-size="11.5" font-weight="700">Avaliações (Filtro: Pilar Kids)   [+ Avaliar este local]</text>
+  <text x="525" y="436" fill="#444" font-size="11">"Trocador limpo e espaço kids cercado, muito seguro." — Resp-04</text>
+  <text x="525" y="456" fill="#444" font-size="11">"Cadeirões higienizados e cardápio infantil." — Resp-11</text>
+
+  <!-- TELA 3: Avaliar em 4 Pilares -->
+  <rect x="970" y="92" width="445" height="415" rx="12" fill="#ffffff" stroke="#555" stroke-width="2"/>
+  <text x="986" y="118" fill="#7a1c24" font-size="14" font-weight="700">Tela 3 · Publicar Avaliação Multicritério (RF004)</text>
+  <text x="986" y="146" fill="#333" font-size="12" font-weight="700">Local: Café Varanda Inclusiva</text>
+  <rect x="986" y="162" width="413" height="44" rx="6" fill="#faf8f6" stroke="#999" stroke-dasharray="4 3"/>
+  <text x="998" y="189" fill="#222" font-size="12">1. Estrutura Infantil (Kids):        ★ ★ ★ ★ ★</text>
+  <rect x="986" y="214" width="413" height="44" rx="6" fill="#faf8f6" stroke="#999" stroke-dasharray="4 3"/>
+  <text x="998" y="241" fill="#222" font-size="12">2. Acessibilidade (PCD e Idosos):   ★ ★ ★ ★ ☆</text>
+  <rect x="986" y="266" width="413" height="44" rx="6" fill="#faf8f6" stroke="#999" stroke-dasharray="4 3"/>
+  <text x="998" y="293" fill="#222" font-size="12">3. Receptividade Pet:               ★ ★ ★ ★ ★</text>
+  <rect x="986" y="318" width="413" height="44" rx="6" fill="#faf8f6" stroke="#999" stroke-dasharray="4 3"/>
+  <text x="998" y="345" fill="#222" font-size="12">4. Atendimento / Custo-Benefício:   ★ ★ ★ ★ ☆</text>
+  <rect x="986" y="374" width="413" height="72" rx="6" fill="#fff" stroke="#999" stroke-dasharray="4 3"/>
+  <text x="998" y="396" fill="#666" font-size="11.5">Comentário opcional sobre sua experiência...</text>
+  <rect x="986" y="458" width="413" height="34" rx="6" fill="#7a1c24"/>
+  <text x="1192" y="480" fill="#fff" font-size="12.5" font-weight="700" text-anchor="middle">Publicar Avaliação nos 4 Pilares</text>
+
+  <!-- TELA 4: Favoritos por Critério -->
+  <rect x="24" y="532" width="445" height="415" rx="12" fill="#ffffff" stroke="#555" stroke-width="2"/>
+  <text x="40" y="558" fill="#7a1c24" font-size="14" font-weight="700">Tela 4 · Favoritos por Critério (RF005)</text>
+  <rect x="40" y="574" width="260" height="32" rx="6" fill="#fff" stroke="#999" stroke-dasharray="4 3"/>
+  <text x="52" y="595" fill="#666" font-size="11.5">Nome da nova lista personalizada...</text>
+  <rect x="308" y="574" width="145" height="32" rx="6" fill="#7a1c24"/>
+  <text x="380" y="595" fill="#fff" font-size="11.5" font-weight="700" text-anchor="middle">+ Criar Lista</text>
+
+  <rect x="40" y="620" width="413" height="92" rx="8" fill="#faf8f6" stroke="#888" stroke-dasharray="5 3"/>
+  <text x="54" y="644" fill="#222" font-size="13" font-weight="700">📁 "Melhores para ir com meu Avô" (3 locais)</text>
+  <text x="54" y="666" fill="#555" font-size="11.5">• Café Varanda Inclusiva (Acessibilidade 4.9★)</text>
+  <text x="54" y="686" fill="#555" font-size="11.5">• Cantina Silenciosa (Baixo ruído, rampa)</text>
+
+  <rect x="40" y="724" width="413" height="92" rx="8" fill="#faf8f6" stroke="#888" stroke-dasharray="5 3"/>
+  <text x="54" y="748" fill="#222" font-size="13" font-weight="700">🐾 "Melhores para levar o Cachorro" (4 locais)</text>
+  <text x="54" y="770" fill="#555" font-size="11.5">• Bistrô Parque das Famílias (Pet 4.9★)</text>
+  <text x="54" y="790" fill="#555" font-size="11.5">• Padaria Pátio Aberto (Pote de água, porte grande)</text>
+
+  <rect x="40" y="828" width="413" height="92" rx="8" fill="#faf8f6" stroke="#888" stroke-dasharray="5 3"/>
+  <text x="54" y="852" fill="#222" font-size="13" font-weight="700">🧸 "Melhores Espaços Kids" (2 locais)</text>
+  <text x="54" y="874" fill="#555" font-size="11.5">• Café Varanda Inclusiva (Kids 4.8★)</text>
+  <text x="54" y="894" fill="#555" font-size="11.5">• Pizzaria Recreio Seguro (Monitora infantil)</text>
+
+  <!-- TELA 5: Painel do Estabelecimento -->
+  <rect x="497" y="532" width="445" height="415" rx="12" fill="#ffffff" stroke="#555" stroke-width="2"/>
+  <text x="513" y="558" fill="#7a1c24" font-size="14" font-weight="700">Tela 5 · Painel do Estabelecimento (RF006, RF007)</text>
+  <rect x="513" y="574" width="413" height="62" rx="6" fill="#faf8f6" stroke="#999" stroke-dasharray="4 3"/>
+  <text x="525" y="596" fill="#333" font-size="12" font-weight="700">Dados Básicos &amp; Contato Externo</text>
+  <text x="525" y="618" fill="#555" font-size="11">Nome | Categoria | Endereço | WhatsApp (link) | Site Oficial</text>
+
+  <rect x="513" y="648" width="413" height="106" rx="6" fill="#faf8f6" stroke="#999" stroke-dasharray="4 3"/>
+  <text x="525" y="670" fill="#333" font-size="12" font-weight="700">Checklist de Comodidades (Tags)</text>
+  <text x="525" y="692" fill="#222" font-size="11">[x] Trocador   [x] Espaço Kids   [ ] Monitoria</text>
+  <text x="525" y="712" fill="#222" font-size="11">[x] Rampa      [x] Banheiro PCD  [x] Baixo ruído</text>
+  <text x="525" y="732" fill="#222" font-size="11">[x] Pet área coberta  [x] Pote de água  [ ] Porte G</text>
+
+  <rect x="513" y="766" width="413" height="114" rx="6" fill="#faf8f6" stroke="#999" stroke-dasharray="4 3"/>
+  <text x="525" y="788" fill="#333" font-size="12" font-weight="700">Vitrine Informativa ("Favoritos da Casa")</text>
+  <text x="525" y="810" fill="#555" font-size="11">• Item 1: Combo Família (★ Favorito da Casa) — R$ 48,00</text>
+  <text x="525" y="830" fill="#555" font-size="11">• Item 2: Biscoito Pet Natural — R$ 12,00</text>
+  <text x="525" y="852" fill="#7a1c24" font-size="11">[+ Adicionar item]  (Sem checkout/pagamento no sistema)</text>
+
+  <rect x="513" y="892" width="413" height="36" rx="6" fill="#7a1c24"/>
+  <text x="719" y="915" fill="#fff" font-size="12.5" font-weight="700" text-anchor="middle">Salvar Alterações do Estabelecimento</text>
+
+  <!-- TELA 6: Timeline, Cupons & Chatbot -->
+  <rect x="970" y="532" width="445" height="415" rx="12" fill="#ffffff" stroke="#555" stroke-width="2"/>
+  <text x="986" y="558" fill="#7a1c24" font-size="14" font-weight="700">Tela 6 · Comunidade, Cupons e Chat (RF010–RF013)</text>
+  <rect x="986" y="574" width="413" height="130" rx="8" fill="#faf8f6" stroke="#888" stroke-dasharray="5 3"/>
+  <text x="1000" y="596" fill="#222" font-size="12" font-weight="700">Timeline dos Locais Seguidos [Tag: Evento]</text>
+  <text x="1000" y="616" fill="#444" font-size="11">Café Varanda Inclusiva: "Sábado com recreação infantil</text>
+  <text x="1000" y="632" fill="#444" font-size="11">e área pet sombreada das 10h às 16h!"</text>
+  <rect x="1000" y="644" width="385" height="46" rx="4" fill="#e2dcd7" stroke="#999"/>
+  <text x="1192" y="671" fill="#666" font-size="11" text-anchor="middle">[1 Imagem da publicação]</text>
+
+  <rect x="986" y="716" width="413" height="92" rx="8" fill="#faf8f6" stroke="#1b6b46" stroke-dasharray="5 3"/>
+  <text x="1000" y="738" fill="#1b6b46" font-size="12" font-weight="700">🎟️ Clube de Fidelidade — Cupons Ativos</text>
+  <text x="1000" y="760" fill="#222" font-size="11.5">10% OFF no Brunch Família · Código: FAMILIA10</text>
+  <text x="1000" y="780" fill="#555" font-size="11">Válido até 15/12/2026 · Apresentar no local</text>
+  <rect x="300" y="0" width="0" height="0"/>
+  <rect x="1278" y="746" width="106" height="28" rx="4" fill="#1b6b46"/>
+  <text x="1331" y="764" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">Resgatar Cupom</text>
+
+  <rect x="986" y="820" width="413" height="110" rx="8" fill="#f0f4f8" stroke="#555" stroke-dasharray="4 3"/>
+  <text x="1000" y="842" fill="#222" font-size="12" font-weight="700">💬 Assistente Virtual Family Place (Prioridade Could)</text>
+  <text x="1000" y="864" fill="#444" font-size="11">Usuário: "Onde almoçar hoje com criança pequena e cachorro?"</text>
+  <text x="1000" y="884" fill="#1b6b46" font-size="11">Assistente: "Sugiro 2 locais com Espaço Kids e Pet Coberto..."</text>
+  <rect x="1000" y="896" width="385" height="24" rx="4" fill="#fff" stroke="#999"/>
+  <text x="1012" y="912" fill="#888" font-size="11">Digite o que procura...</text>
+</svg>

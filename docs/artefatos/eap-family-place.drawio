@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net" modified="2026-11-18T15:46:00.000Z" agent="Antigravity" version="24.7.17">
+  <diagram id="eap-family-place" name="EAP Family Place">
+    <mxGraphModel dx="1420" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <!-- Root -->
+        <mxCell id="root" value="0. Family Place&#xa;(Projeto Extensionista)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7a1c24;fontColor=#ffffff;strokeColor=#5c141a;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="540" y="30" width="300" height="64" as="geometry"/>
+        </mxCell>
+        <!-- Level 1 -->
+        <mxCell id="n1" value="1. Gestão" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5ece9;strokeColor=#7a1c24;fontColor=#7a1c24;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="150" width="270" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="n2" value="2. Requisitos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5ece9;strokeColor=#7a1c24;fontColor=#7a1c24;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="380" y="150" width="270" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="n3" value="3. Planejamento" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5ece9;strokeColor=#7a1c24;fontColor=#7a1c24;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="710" y="150" width="270" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="n4" value="4. Entrega e MVP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5ece9;strokeColor=#7a1c24;fontColor=#7a1c24;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="150" width="290" height="50" as="geometry"/>
+        </mxCell>
+        <!-- Level 2 -->
+        <mxCell id="n1_1" value="1.1 TAP, PMCanvas, Escopo e Viabilidade&#xa;[Marco M1]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="245" width="270" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="n1_2" value="1.2 Processo Híbrido, Acompanhamento e Atas&#xa;[Marco M5]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="335" width="270" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="n2_1" value="2.1 Elicitação (Forms + Entrevistas) e Wireframes&#xa;[Marco M2]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="380" y="245" width="270" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="n2_2" value="2.2 Especificação RU/RF/NF/RD (RF001–RF015)&#xa;[Marco M3]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="380" y="335" width="270" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="n3_1" value="3.1 EAP, Marcos e Cronograma (Sommerville +50%)&#xa;[Marco M4]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="710" y="245" width="270" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="n3_2" value="3.2 Personas, Backlog (H01–H15), Kanban e Planning Poker&#xa;[Marco M4]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="710" y="335" width="270" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="n4_1" value="4.1 Documento Mestre, Rastreabilidade e Apresentação 24/11&#xa;[Marco M5]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="245" width="290" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="n4_2" value="4.2 MVP React (RF001–RF009 Must) e Entrega Final 08/12&#xa;[Marco M6]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e9f5ee;strokeColor=#1b6b46;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="335" width="290" height="65" as="geometry"/>
+        </mxCell>
+        <!-- Edges -->
+        <mxCell id="e1" edge="1" parent="1" source="root" target="n1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#7a1c24;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="root" target="n2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#7a1c24;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="root" target="n3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#7a1c24;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="root" target="n4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#7a1c24;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="n1" target="n1_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#7a1c24;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="n1_1" target="n1_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#999999;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e21" edge="1" parent="1" source="n2" target="n2_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#7a1c24;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e22" edge="1" parent="1" source="n2_1" target="n2_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#999999;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e31" edge="1" parent="1" source="n3" target="n3_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#7a1c24;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e32" edge="1" parent="1" source="n3_1" target="n3_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#999999;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e41" edge="1" parent="1" source="n4" target="n4_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#7a1c24;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e42" edge="1" parent="1" source="n4_1" target="n4_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1b6b46;"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

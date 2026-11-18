@@ -1,0 +1,16 @@
+Necessidade_Comunidade,Objetivo_SMART,RU,Requisito_RF,EAP_Item,Marco,Historia,Pontos,Prioridade_MoSCoW
+"Encontrar locais adequados para crianças, pets, idosos e PCDs com múltiplos critérios simultâneos",OBJ1,RU01,RF001,2.2 / 3.2,M3 / M4,H01,5,Must
+"Consultar estrutura real (rampas, trocador, área pet) e localização antes de sair de casa",OBJ1,RU01,RF002,2.2 / 3.2,M3 / M4,H02,3,Must
+"Consultar notas separadas para Infantil, Acessibilidade, Pet e Atendimento/Custo-Benefício",OBJ3,RU02,RF003,2.2 / 3.2,M3 / M4,H04,3,Must
+"Publicar avaliações confiáveis pontuando os 4 pilares independentes",OBJ3,RU02,RF004,2.2 / 3.2,M3 / M4,H05,5,Must
+"Filtrar relatos e avaliações pelo pilar de maior interesse da família",OBJ3,RU02,RF009,2.2 / 3.2,M3 / M4,H06,2,Must
+"Organizar locais favoritos em listas personalizadas por companhia/critério",OBJ3,RU03,RF005,2.2 / 3.2,M3 / M4,H07,3,Must
+"Autenticar clientes e gestores de estabelecimentos com papéis distintos e LGPD",OBJ2,RU04,RF006,2.2 / 3.2,M3 / M4,H08,3,Must
+"Dar visibilidade a comércios locais inclusivos com tags e destaques Favoritos da Casa",OBJ1,RU04,RF007,2.2 / 3.2,M3 / M4,H09,5,Must
+"Facilitar contato direto com o comércio (WhatsApp/Site) sem cobrança ou intermediação",OBJ4,RU04,RF008,2.2 / 3.2,M3 / M4,H10,2,Must
+"Seguir estabelecimentos locais favoritos para acompanhar sua atuação",OBJ4,RU05,RF010,2.2 / 3.2,M3 / M4,H12,2,Should
+"Divulgar eventos, promoções e novidades locais em timeline com foto e categoria",OBJ4,RU05,RF011,2.2 / 3.2,M3 / M4,H13,5,Should
+"Oferecer benefícios e cupons de fidelidade gratuitos para fortalecer a comunidade",OBJ4,RU06,RF012,2.2 / 3.2,M3 / M4,H14,5,Should
+"Auxiliar usuários sem familiaridade com filtros por meio de assistente virtual em linguagem natural",OBJ4,RU07,RF013,2.2 / 3.2,M3 / M4,H03,8,Could
+"Manter dados de acessibilidade confiáveis com sinalização comunitária de divergências",OBJ2,RU07,RF014,2.2 / 3.2,M3 / M4,H11,3,Could
+"Registrar demandas futuras fora do escopo atual (pagamento, delivery, app nativo)",OBJ4,RU08,RF015,1.1 / 2.2,M1 / M3,H15,13,Wont

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 600" width="1400" height="600" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="1400" height="600" fill="#faf7f5"/>
+  <!-- Header -->
+  <rect x="0" y="0" width="1400" height="72" fill="#7a1c24"/>
+  <text x="28" y="34" fill="#ffffff" font-size="22" font-weight="700">Cronograma (Gráfico de Gantt) — Family Place</text>
+  <text x="28" y="56" fill="#f3d9db" font-size="13">Período: 18/11/2026 a 08/12/2026 · Regra de Sommerville (+50%: 30% imprevistos + 20% aspectos não previstos)</text>
+
+  <!-- Table header -->
+  <rect x="24" y="92" width="1352" height="38" fill="#5c141a"/>
+  <text x="38" y="116" fill="#ffffff" font-size="13" font-weight="700">EAP · Atividade</text>
+  <text x="415" y="116" fill="#ffffff" font-size="13" font-weight="700">Duração (Mín–Máx)</text>
+  <text x="580" y="116" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">18/11</text>
+  <text x="680" y="116" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">20/11</text>
+  <text x="800" y="116" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">24/11</text>
+  <text x="940" y="116" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">28/11</text>
+  <text x="1100" y="116" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">02/12</text>
+  <text x="1280" y="116" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">08/12</text>
+
+  <!-- Vertical milestone markers -->
+  <line x1="800" y1="130" x2="800" y2="510" stroke="#7a1c24" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="1280" y1="130" x2="1280" y2="510" stroke="#1b6b46" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+  <!-- Row backgrounds -->
+  <rect x="24" y="130" width="1352" height="46" fill="#ffffff" stroke="#e5ded9"/>
+  <rect x="24" y="176" width="1352" height="46" fill="#f7f4f1" stroke="#e5ded9"/>
+  <rect x="24" y="222" width="1352" height="46" fill="#ffffff" stroke="#e5ded9"/>
+  <rect x="24" y="268" width="1352" height="46" fill="#f7f4f1" stroke="#e5ded9"/>
+  <rect x="24" y="314" width="1352" height="46" fill="#ffffff" stroke="#e5ded9"/>
+  <rect x="24" y="360" width="1352" height="46" fill="#f7f4f1" stroke="#e5ded9"/>
+  <rect x="24" y="406" width="1352" height="46" fill="#ffffff" stroke="#e5ded9"/>
+  <rect x="24" y="452" width="1352" height="46" fill="#f7f4f1" stroke="#e5ded9"/>
+
+  <!-- Row 1: 1.1 -->
+  <text x="38" y="158" fill="#222" font-size="12.5" font-weight="700">1.1 TAP, PMCanvas, Escopo e Viabilidade [M1]</text>
+  <text x="415" y="158" fill="#555" font-size="12">1,0d – 1,5d (Coord.)</text>
+  <rect x="570" y="142" width="70" height="22" rx="4" fill="#7a1c24"/>
+  <rect x="640" y="142" width="25" height="22" rx="4" fill="#d9a7ab"/>
+
+  <!-- Row 2: 2.1 -->
+  <text x="38" y="204" fill="#222" font-size="12.5" font-weight="700">2.1 Elicitação (Forms+Entrev.) e Wireframes [M2]</text>
+  <text x="415" y="204" fill="#555" font-size="12">2,0d – 3,0d (Req.)</text>
+  <rect x="580" y="188" width="105" height="22" rx="4" fill="#7a1c24"/>
+  <rect x="685" y="188" width="45" height="22" rx="4" fill="#d9a7ab"/>
+
+  <!-- Row 3: 2.2 -->
+  <text x="38" y="250" fill="#222" font-size="12.5" font-weight="700">2.2 Especificação RU/RF/NF/RD (MoSCoW) [M3]</text>
+  <text x="415" y="250" fill="#555" font-size="12">1,5d – 2,5d (Req.)</text>
+  <rect x="625" y="234" width="75" height="22" rx="4" fill="#7a1c24"/>
+  <rect x="700" y="234" width="35" height="22" rx="4" fill="#d9a7ab"/>
+
+  <!-- Row 4: 3.1 -->
+  <text x="38" y="296" fill="#222" font-size="12.5" font-weight="700">3.1 EAP, Marcos e Cronograma [M4]</text>
+  <text x="415" y="296" fill="#555" font-size="12">1,0d – 1,5d (Planej.)</text>
+  <rect x="645" y="280" width="60" height="22" rx="4" fill="#7a1c24"/>
+  <rect x="705" y="280" width="25" height="22" rx="4" fill="#d9a7ab"/>
+
+  <!-- Row 5: 3.2 -->
+  <text x="38" y="342" fill="#222" font-size="12.5" font-weight="700">3.2 Personas, Backlog, Kanban e Poker [M4]</text>
+  <text x="415" y="342" fill="#555" font-size="12">1,5d – 2,5d (Backlog)</text>
+  <rect x="660" y="326" width="75" height="22" rx="4" fill="#7a1c24"/>
+  <rect x="735" y="326" width="35" height="22" rx="4" fill="#d9a7ab"/>
+
+  <!-- Row 6: 1.2 -->
+  <text x="38" y="388" fill="#222" font-size="12.5" font-weight="700">1.2 Acompanhamento, Atas e Versões [M5]</text>
+  <text x="415" y="388" fill="#555" font-size="12">Contínuo (2d–3d eq.)</text>
+  <rect x="570" y="372" width="710" height="22" rx="4" fill="#8b7d7b" opacity="0.65"/>
+
+  <!-- Row 7: 4.1 -->
+  <text x="38" y="434" fill="#222" font-size="12.5" font-weight="700">4.1 Doc Final, Matriz e Apresentação 24/11 [M5]</text>
+  <text x="415" y="434" fill="#555" font-size="12">2,0d – 3,0d (Qual./Eq.)</text>
+  <rect x="720" y="418" width="80" height="22" rx="4" fill="#7a1c24"/>
+  <polygon points="800,415 812,429 800,443 788,429" fill="#d4a017"/>
+
+  <!-- Row 8: 4.2 -->
+  <text x="38" y="480" fill="#1b6b46" font-size="12.5" font-weight="700">4.2 MVP React (Must) e Fechamento 08/12 [M6]</text>
+  <text x="415" y="480" fill="#555" font-size="12">8,0d – 12,0d (Equipe)</text>
+  <rect x="815" y="464" width="340" height="22" rx="4" fill="#1b6b46"/>
+  <rect x="1155" y="464" width="125" height="22" rx="4" fill="#9cd3b8"/>
+  <polygon points="1280,461 1292,475 1280,489 1268,475" fill="#d4a017"/>
+
+  <!-- Legend -->
+  <rect x="24" y="520" width="1352" height="54" rx="8" fill="#ffffff" stroke="#d8cfc9"/>
+  <rect x="44" y="538" width="22" height="16" rx="3" fill="#7a1c24"/>
+  <text x="74" y="551" fill="#333" font-size="12">Duração ideal (Documentação)</text>
+  <rect x="275" y="538" width="22" height="16" rx="3" fill="#d9a7ab"/>
+  <text x="305" y="551" fill="#333" font-size="12">Margem Sommerville (+50%)</text>
+  <rect x="500" y="538" width="22" height="16" rx="3" fill="#1b6b46"/>
+  <text x="530" y="551" fill="#333" font-size="12">MVP React (após autorização)</text>
+  <rect x="740" y="538" width="22" height="16" rx="3" fill="#9cd3b8"/>
+  <text x="770" y="551" fill="#333" font-size="12">Reserva Sommerville MVP</text>
+  <polygon points="965,536 975,546 965,556 955,546" fill="#d4a017"/>
+  <text x="984" y="551" fill="#333" font-size="12">Marcos Críticos: M5 (24/11 Apresentação) e M6 (08/12 Entrega Final)</text>
+</svg>

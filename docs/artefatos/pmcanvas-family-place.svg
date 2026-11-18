@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 920" width="1400" height="920" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="1400" height="920" fill="#faf7f5"/>
+  <!-- Header -->
+  <rect x="0" y="0" width="1400" height="84" fill="#7a1c24"/>
+  <text x="32" y="38" fill="#ffffff" font-size="26" font-weight="700">PMCanvas — Family Place (Projeto Extensionista)</text>
+  <text x="32" y="64" fill="#f3d9db" font-size="14">Engenharia de Software &amp; Front-end React · Entrega Documentação: 24/11/2026 · Entrega Final: 08/12/2026</text>
+
+  <!-- Column Headers -->
+  <rect x="24" y="100" width="262" height="34" rx="6" fill="#5c141a"/>
+  <text x="155" y="122" fill="#ffffff" font-size="14" font-weight="700" text-anchor="middle">POR QUÊ?</text>
+
+  <rect x="298" y="100" width="262" height="34" rx="6" fill="#5c141a"/>
+  <text x="429" y="122" fill="#ffffff" font-size="14" font-weight="700" text-anchor="middle">O QUÊ?</text>
+
+  <rect x="572" y="100" width="262" height="34" rx="6" fill="#5c141a"/>
+  <text x="703" y="122" fill="#ffffff" font-size="14" font-weight="700" text-anchor="middle">QUEM?</text>
+
+  <rect x="846" y="100" width="262" height="34" rx="6" fill="#5c141a"/>
+  <text x="977" y="122" fill="#ffffff" font-size="14" font-weight="700" text-anchor="middle">COMO?</text>
+
+  <rect x="1120" y="100" width="256" height="34" rx="6" fill="#5c141a"/>
+  <text x="1248" y="122" fill="#ffffff" font-size="14" font-weight="700" text-anchor="middle">QUANDO E QUANTO?</text>
+
+  <!-- Col 1: POR QUE -->
+  <rect x="24" y="146" width="262" height="230" rx="8" fill="#fff" stroke="#d8cfc9" stroke-width="1.5"/>
+  <text x="38" y="170" fill="#7a1c24" font-size="14" font-weight="700">Justificativas</text>
+  <text x="38" y="194" fill="#2c2424" font-size="12">• Falta de dados confiáveis sobre</text>
+  <text x="46" y="212" fill="#2c2424" font-size="12">infraestrutura infantil, pet,</text>
+  <text x="46" y="230" fill="#2c2424" font-size="12">acessibilidade PCD e conforto</text>
+  <text x="46" y="248" fill="#2c2424" font-size="12">para idosos antes de sair de casa.</text>
+  <text x="38" y="274" fill="#2c2424" font-size="12">• Baixa visibilidade de comércios</text>
+  <text x="46" y="292" fill="#2c2424" font-size="12">locais inclusivos e acolhedores.</text>
+
+  <rect x="24" y="388" width="262" height="270" rx="8" fill="#fff" stroke="#d8cfc9" stroke-width="1.5"/>
+  <text x="38" y="412" fill="#7a1c24" font-size="14" font-weight="700">Objetivos SMART</text>
+  <text x="38" y="436" fill="#2c2424" font-size="12">• OBJ1: 15+ locais inclusivos</text>
+  <text x="46" y="454" fill="#2c2424" font-size="12">mapeados/validados até 01/12.</text>
+  <text x="38" y="480" fill="#2c2424" font-size="12">• OBJ2: 2+ técnicas de elicitação</text>
+  <text x="46" y="498" fill="#2c2424" font-size="12">(20+ respostas, 3+ entrevistas)</text>
+  <text x="46" y="516" fill="#2c2424" font-size="12">concluídas até 20/11.</text>
+  <text x="38" y="542" fill="#2c2424" font-size="12">• OBJ3: 100% dos fluxos Must em</text>
+  <text x="46" y="560" fill="#2c2424" font-size="12">wireframes e backlog até 20/11.</text>
+  <text x="38" y="586" fill="#2c2424" font-size="12">• OBJ4: Doc em 24/11 e MVP React</text>
+  <text x="46" y="604" fill="#2c2424" font-size="12">na 1ª semana de dez (08/12).</text>
+
+  <rect x="24" y="670" width="262" height="226" rx="8" fill="#fff" stroke="#d8cfc9" stroke-width="1.5"/>
+  <text x="38" y="694" fill="#7a1c24" font-size="14" font-weight="700">Benefícios</text>
+  <text x="38" y="718" fill="#2c2424" font-size="12">• Passeios familiares previsíveis</text>
+  <text x="46" y="736" fill="#2c2424" font-size="12">e seguros para todos os perfis.</text>
+  <text x="38" y="762" fill="#2c2424" font-size="12">• Decisão rápida via notas em</text>
+  <text x="46" y="780" fill="#2c2424" font-size="12">4 pilares independentes.</text>
+  <text x="38" y="806" fill="#2c2424" font-size="12">• Divulgação local gratuita sem</text>
+  <text x="46" y="824" fill="#2c2424" font-size="12">taxas sobre vendas ou reservas.</text>
+
+  <!-- Col 2: O QUE -->
+  <rect x="298" y="146" width="262" height="310" rx="8" fill="#fff" stroke="#d8cfc9" stroke-width="1.5"/>
+  <text x="312" y="170" fill="#7a1c24" font-size="14" font-weight="700">Produto (Family Place)</text>
+  <text x="312" y="196" fill="#2c2424" font-size="12">Plataforma web responsiva com:</text>
+  <text x="312" y="220" fill="#2c2424" font-size="12">• Busca com filtros combinados</text>
+  <text x="312" y="242" fill="#2c2424" font-size="12">• Avaliação em 4 pilares (1–5★):</text>
+  <text x="320" y="260" fill="#555" font-size="11.5">1. Estrutura Infantil (Kids)</text>
+  <text x="320" y="278" fill="#555" font-size="11.5">2. Acessibilidade (PCD/Idosos)</text>
+  <text x="320" y="296" fill="#555" font-size="11.5">3. Receptividade Pet</text>
+  <text x="320" y="314" fill="#555" font-size="11.5">4. Atendimento / Custo-Benefício</text>
+  <text x="312" y="340" fill="#2c2424" font-size="12">• Listas de favoritos por critério</text>
+  <text x="312" y="362" fill="#2c2424" font-size="12">• Vitrine + redirect WhatsApp/Site</text>
+  <text x="312" y="384" fill="#2c2424" font-size="12">• Timeline + Clube de Cupons</text>
+  <text x="312" y="406" fill="#2c2424" font-size="12">• Assistente Chatbot (Could)</text>
+
+  <rect x="298" y="468" width="262" height="428" rx="8" fill="#fff" stroke="#d8cfc9" stroke-width="1.5"/>
+  <text x="312" y="492" fill="#7a1c24" font-size="14" font-weight="700">Requisitos-Chave (MoSCoW)</text>
+  <text x="312" y="518" fill="#7a1c24" font-size="12" font-weight="700">MUST (60%):</text>
+  <text x="312" y="536" fill="#2c2424" font-size="12">• RF001 Filtros combinados</text>
+  <text x="312" y="554" fill="#2c2424" font-size="12">• RF002/003/004 Notas 4 pilares</text>
+  <text x="312" y="572" fill="#2c2424" font-size="12">• RF005 Favoritos por critério</text>
+  <text x="312" y="590" fill="#2c2424" font-size="12">• RF006/007 Contas &amp; Tags</text>
+  <text x="312" y="608" fill="#2c2424" font-size="12">• RF008 Redirect WhatsApp/Site</text>
+  <text x="312" y="626" fill="#2c2424" font-size="12">• RF009 Filtro por pilar</text>
+  <text x="312" y="652" fill="#1b6b46" font-size="12" font-weight="700">SHOULD (20%):</text>
+  <text x="312" y="670" fill="#2c2424" font-size="12">• RF010/011 Seguir e Timeline</text>
+  <text x="312" y="688" fill="#2c2424" font-size="12">• RF012 Clube de Cupons</text>
+  <text x="312" y="714" fill="#555" font-size="12" font-weight="700">COULD (13,3%) &amp; WON'T (6,7%):</text>
+  <text x="312" y="732" fill="#2c2424" font-size="12">• RF013 Assistente Chatbot (IA)</text>
+  <text x="312" y="750" fill="#2c2424" font-size="12">• RF014 Reporte de acessibilidade</text>
+  <text x="312" y="768" fill="#2c2424" font-size="12">• RF015 (Won't) Pagamento, delivery,</text>
+  <text x="320" y="786" fill="#2c2424" font-size="12">avaliação por item e app nativo</text>
+  <text x="312" y="814" fill="#7a1c24" font-size="12" font-weight="700">NFs Verificáveis:</text>
+  <text x="312" y="832" fill="#2c2424" font-size="12">• NF001 ≤ 3s em 4G (95% acessos)</text>
+  <text x="312" y="850" fill="#2c2424" font-size="12">• NF002 Contraste ≥ 4,5:1 (WCAG)</text>
+
+  <!-- Col 3: QUEM -->
+  <rect x="572" y="146" width="262" height="360" rx="8" fill="#fff" stroke="#d8cfc9" stroke-width="1.5"/>
+  <text x="586" y="170" fill="#7a1c24" font-size="14" font-weight="700">Stakeholders</text>
+  <text x="586" y="196" fill="#7a1c24" font-size="12" font-weight="700">Envolvidos (Internos):</text>
+  <text x="586" y="216" fill="#2c2424" font-size="12">• Equipe acadêmica (5 papéis)</text>
+  <text x="586" y="234" fill="#2c2424" font-size="12">• Prof. Fernando Marlon (Eng. SW)</text>
+  <text x="586" y="252" fill="#2c2424" font-size="12">• Prof. Front-end React</text>
+  <text x="586" y="284" fill="#1b6b46" font-size="12" font-weight="700">Interessados (Externos):</text>
+  <text x="586" y="304" fill="#2c2424" font-size="12">• Pais/responsáveis com crianças</text>
+  <text x="586" y="322" fill="#2c2424" font-size="12">• Tutores de animais de estimação</text>
+  <text x="586" y="340" fill="#2c2424" font-size="12">• Pessoas idosas e familiares</text>
+  <text x="586" y="358" fill="#2c2424" font-size="12">• Pessoas com Deficiência (PCD)</text>
+  <text x="586" y="376" fill="#2c2424" font-size="12">• Gestores de comércios locais</text>
+  <text x="586" y="408" fill="#555" font-size="11.5">Escuta: reuniões semanais (internos)</text>
+  <text x="586" y="426" fill="#555" font-size="11.5">+ Forms e entrevistas (externos).</text>
+
+  <rect x="572" y="518" width="262" height="378" rx="8" fill="#fff" stroke="#d8cfc9" stroke-width="1.5"/>
+  <text x="586" y="542" fill="#7a1c24" font-size="14" font-weight="700">Equipe e Papéis</text>
+  <text x="586" y="570" fill="#2c2424" font-size="12" font-weight="700">Coordenação:</text>
+  <text x="586" y="588" fill="#2c2424" font-size="12">Pierre Cavalcanti</text>
+  <text x="586" y="616" fill="#2c2424" font-size="12" font-weight="700">Requisitos:</text>
+  <text x="586" y="634" fill="#2c2424" font-size="12">[Integrante 2 - A preencher]</text>
+  <text x="586" y="662" fill="#2c2424" font-size="12" font-weight="700">Planejamento:</text>
+  <text x="586" y="680" fill="#2c2424" font-size="12">[Integrante 3 - A preencher]</text>
+  <text x="586" y="708" fill="#2c2424" font-size="12" font-weight="700">Backlog:</text>
+  <text x="586" y="726" fill="#2c2424" font-size="12">[Integrante 4 - A preencher]</text>
+  <text x="586" y="754" fill="#2c2424" font-size="12" font-weight="700">Qualidade:</text>
+  <text x="586" y="772" fill="#2c2424" font-size="12">[Integrante 5 - A preencher]</text>
+  <text x="586" y="810" fill="#555" font-size="11.5">Obs.: Todos dominam o documento</text>
+  <text x="586" y="828" fill="#555" font-size="11.5">inteiro para as perguntas individuais.</text>
+
+  <!-- Col 4: COMO -->
+  <rect x="846" y="146" width="262" height="196" rx="8" fill="#fff" stroke="#d8cfc9" stroke-width="1.5"/>
+  <text x="860" y="170" fill="#7a1c24" font-size="14" font-weight="700">Premissas</text>
+  <text x="860" y="196" fill="#2c2424" font-size="12">• Comunidade responde ao Forms e</text>
+  <text x="868" y="214" fill="#2c2424" font-size="12">entrevistas dentro do prazo.</text>
+  <text x="860" y="240" fill="#2c2424" font-size="12">• Comércios usam WhatsApp ou site</text>
+  <text x="868" y="258" fill="#2c2424" font-size="12">próprio para receber contatos.</text>
+  <text x="860" y="284" fill="#2c2424" font-size="12">• Processo híbrido Scrum + Kanban</text>
+  <text x="868" y="302" fill="#2c2424" font-size="12">com reuniões curtas e atas.</text>
+
+  <rect x="846" y="354" width="262" height="250" rx="8" fill="#fff" stroke="#d8cfc9" stroke-width="1.5"/>
+  <text x="860" y="378" fill="#7a1c24" font-size="14" font-weight="700">Grupo de Entregas</text>
+  <text x="860" y="404" fill="#2c2424" font-size="12">1. Documento Mestre Único (9 seç.)</text>
+  <text x="860" y="428" fill="#2c2424" font-size="12">2. Pacote Visual de Artefatos:</text>
+  <text x="868" y="446" fill="#555" font-size="11.5">• PMCanvas e TAP</text>
+  <text x="868" y="464" fill="#555" font-size="11.5">• Questionário, Roteiro e Atas</text>
+  <text x="868" y="482" fill="#555" font-size="11.5">• Wireframes de Baixa Fidelidade</text>
+  <text x="868" y="500" fill="#555" font-size="11.5">• Planilha de Requisitos &amp; Matriz</text>
+  <text x="868" y="518" fill="#555" font-size="11.5">• EAP, Cronograma Gantt e Kanban</text>
+  <text x="860" y="544" fill="#2c2424" font-size="12">3. Apresentação cronometrada 24/11</text>
+  <text x="860" y="568" fill="#2c2424" font-size="12">4. MVP React (após autorização)</text>
+
+  <rect x="846" y="616" width="262" height="280" rx="8" fill="#fff" stroke="#7a1c24" stroke-width="1.8"/>
+  <text x="860" y="640" fill="#7a1c24" font-size="14" font-weight="700">Restrições &amp; Escopo Negativo</text>
+  <text x="860" y="666" fill="#7a1c24" font-size="12" font-weight="700">O que NÃO faz:</text>
+  <text x="860" y="686" fill="#2c2424" font-size="12">✗ Sem pagamento/checkout online</text>
+  <text x="860" y="706" fill="#2c2424" font-size="12">✗ Sem delivery ou logística própria</text>
+  <text x="860" y="726" fill="#2c2424" font-size="12">✗ Sem nota por item de cardápio</text>
+  <text x="860" y="746" fill="#2c2424" font-size="12">✗ Sem app mobile nativo agora</text>
+  <text x="860" y="776" fill="#2c2424" font-size="12" font-weight="700">Restrições de Projeto:</text>
+  <text x="860" y="796" fill="#2c2424" font-size="12">• Apresentação Doc: 24/11/2026</text>
+  <text x="860" y="816" fill="#2c2424" font-size="12">• Entrega Final / MVP: 08/12/2026</text>
+  <text x="860" y="836" fill="#2c2424" font-size="12">• Orçamento: R$ 0,00</text>
+  <text x="860" y="856" fill="#2c2424" font-size="12">• LGPD e anonimização obrigatórias</text>
+
+  <!-- Col 5: QUANDO E QUANTO -->
+  <rect x="1120" y="146" width="256" height="310" rx="8" fill="#fff" stroke="#d8cfc9" stroke-width="1.5"/>
+  <text x="1134" y="170" fill="#7a1c24" font-size="14" font-weight="700">Riscos (Alto Nível)</text>
+  <text x="1134" y="196" fill="#2c2424" font-size="12">1. Poucas respostas da comunidade</text>
+  <text x="1142" y="214" fill="#555" font-size="11.5">→ Mitigação: Forms rápido +</text>
+  <text x="1142" y="230" fill="#555" font-size="11.5">entrevistas presenciais/remotas.</text>
+  <text x="1134" y="260" fill="#2c2424" font-size="12">2. Atraso entre Doc e MVP React</text>
+  <text x="1142" y="278" fill="#555" font-size="11.5">→ Mitigação: Regra Sommerville</text>
+  <text x="1142" y="294" fill="#555" font-size="11.5">(+50%) e foco em histórias Must.</text>
+  <text x="1134" y="324" fill="#2c2424" font-size="12">3. Escopo inflado (ex.: chatbot)</text>
+  <text x="1142" y="342" fill="#555" font-size="11.5">→ Mitigação: Classificado como</text>
+  <text x="1142" y="358" fill="#555" font-size="11.5">Desejável (Could) fora do MVP.</text>
+  <text x="1134" y="388" fill="#2c2424" font-size="12">4. Lacunas de rastreabilidade</text>
+  <text x="1142" y="406" fill="#555" font-size="11.5">→ Mitigação: Revisão cruzada</text>
+  <text x="1142" y="422" fill="#555" font-size="11.5">com matriz antes da entrega.</text>
+
+  <rect x="1120" y="468" width="256" height="260" rx="8" fill="#fff" stroke="#d8cfc9" stroke-width="1.5"/>
+  <text x="1134" y="492" fill="#7a1c24" font-size="14" font-weight="700">Linha do Tempo</text>
+  <text x="1134" y="520" fill="#2c2424" font-size="12" font-weight="700">18/11–20/11:</text>
+  <text x="1134" y="538" fill="#2c2424" font-size="12">TAP, Elicitação, Requisitos,</text>
+  <text x="1134" y="556" fill="#2c2424" font-size="12">EAP, Backlog e Documento Mestre.</text>
+  <text x="1134" y="586" fill="#7a1c24" font-size="12" font-weight="700">24/11/2026:</text>
+  <text x="1134" y="604" fill="#2c2424" font-size="12">Apresentação Eng. de Software</text>
+  <text x="1134" y="622" fill="#2c2424" font-size="12">(7 min + 1 min + 4 min perguntas).</text>
+  <text x="1134" y="652" fill="#1b6b46" font-size="12" font-weight="700">25/11–08/12:</text>
+  <text x="1134" y="670" fill="#2c2424" font-size="12">MVP React (1ª sem. dez) e</text>
+  <text x="1134" y="688" fill="#2c2424" font-size="12">fechamento semestral em 08/12.</text>
+
+  <rect x="1120" y="740" width="256" height="156" rx="8" fill="#1b6b46"/>
+  <text x="1134" y="768" fill="#ffffff" font-size="14" font-weight="700">Custos Estimados</text>
+  <text x="1134" y="806" fill="#ffffff" font-size="28" font-weight="700">R$ 0,00</text>
+  <text x="1134" y="834" fill="#d7f2e5" font-size="12">Ferramentas gratuitas: GitHub,</text>
+  <text x="1134" y="852" fill="#d7f2e5" font-size="12">Google Forms, draw.io, Figma,</text>
+  <text x="1134" y="870" fill="#d7f2e5" font-size="12">Markdown/CSV e React.</text>
+</svg>
